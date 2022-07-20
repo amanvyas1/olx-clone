@@ -1,0 +1,104 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars Page</title>
+    <link rel="stylesheet" href="./styles/cars.css">
+</head>
+
+<body>
+    <div id="header-container"></div>
+    <div id="container">
+        <div id="filter-container">
+            <h1>Used Cars in India</h1>
+            <div class="hr"></div>
+            <div>
+                <div>
+                    <h3>LOCATION</h3>
+                </div>
+                <div>
+                    <p>Mumbai</p>
+                    <p>Pune</p>
+                    <p>Bengalore</p>
+                    <p>Bhopal</p>
+                    <p>Indore</p>
+                    <p>Delhi</p>
+                </div>
+            </div>
+            <div class="hr"></div>
+            <div>
+                <div>
+                    <h3>BRAND</h3>
+                </div>
+                <div>
+                    <p>Maruti Suzuki</p>
+                    <p>Tata</p>
+                    <p>Hyundai</p>
+                    <p>Honda</p>
+                    <p>Ford</p>
+                </div>
+            </div>
+            <div class="hr"></div>
+            <div>
+                <div>
+                    <h3>BUDGET</h3>
+                    <p>Choose from options below</p>
+                </div>
+                <div>
+                    <p>Below 1 lac</p>
+                    <p>1 - 2 lac</p>
+                    <p>2 - 3 lac</p>
+                    <p>3 - 4 lac</p>
+                    <p>4 - 5 lac</p>
+                    <p>5 lac and above</p>
+                </div>
+            </div>
+            <div class="hr"></div>
+            <div>
+                <div>
+                    <h3>KM DRIVEN</h3>
+                    <p>Choose from options below(km)</p>
+                </div>
+                <div>
+                    <p>Below 25000km</p>
+                    <p>25000 - 50000km</p>
+                    <p>50000 - 75000km</p>
+                    <p>75000 - 100000km</p>
+                    <p>100000km and above</p>
+                </div>
+            </div>
+            <div class="hr"></div>
+        </div>
+        <div id="products-container">
+            <div id="sort-container">
+                <label for="sort">SORT BY:</label>
+                <select name="sort" id="sort">
+                    <option value="relevance">Relevance</option>
+                    <option value="lth">Price:low to high</option>
+                    <option value="htl">Price:high to low</option>
+                </select>
+            </div>
+            <div class="hr"></div>
+            <div id="products">
+                <div class="items">
+                    <div>
+                        <img src="https://apollo-singapore.akamaized.net/v1/files/tf5h1tof23mh3-IN/image;s=300x600;q=60"
+                            alt="">
+                    </div>
+                    <div>
+                        <h3>230000</h3>
+                        <p>200km</p>
+                        <h4>Hyundai Creta</h4>
+                        <p>bandra west</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button id="btn-btt">Back to top</button>
+</body>
+
+</html>
+<script type="module" src="./scripts/cars.js"></script>
