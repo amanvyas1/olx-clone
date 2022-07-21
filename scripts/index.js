@@ -359,6 +359,9 @@ let products = [
     Description: "Brand: Suzuki,Model:Gixxer,Year:2019, KM driven: 2,000 km",
   },
 ];
+localStorage.setItem('products',JSON.stringify(products));
+
+let data = JSON.parse(localStorage.getItem('products'));
 
 let motorcycle = [
   {
@@ -431,15 +434,87 @@ let motorcycle = [
 
 ];
 
+let bufferData=[
+    {
+        name: "Skoda Rapid",
+        image1:
+          "https://apollo-singapore.akamaized.net/v1/files/66jph9buz9bz1-IN/image;s=780x0;q=60",
+        image2:
+          "https://apollo-singapore.akamaized.net/v1/files/azmckv1t093l3-IN/image;s=780x0;q=60",
+        image3:
+          "https://apollo-singapore.akamaized.net/v1/files/aej0sjs8b4h3-IN/image;s=780x0;q=60",
+        price: "12,50,001",
+        address: "Avarampalayam, Coimbatore",    
+        State: "Tamil Nadu",
+        Description: "ABS: Yes,Accidental: No,Adjustable External Mirror: Power,Adjustable Steering: Yes, Air Conditioning: Automatic Climate Control,Number of Airbags: 2 airbags,Alloy Wheels: Yes",
+      },
+      {
+        name: "Honda Activa",
+        image1:
+          "https://apollo-singapore.akamaized.net/v1/files/u0kdn7xsdina-IN/image;s=780x0;q=60",
+        image2:
+          "https://apollo-singapore.akamaized.net/v1/files/hnr7wyubvyqh2-IN/image;s=780x0;q=60",
+        image3:
+          "https://apollo-singapore.akamaized.net/v1/files/u0kdn7xsdina-IN/image;s=780x0;q=60",
+        price: "28,500",
+        address: "DRR Nagar, Chennai, Tamil Nadu",    
+        State: "Tamil Nadu",
+        Description: "Honda activa stormRider just 8k km done single owner bike looks like a new condition company service only price is silently negotiable too much bargaining please stay away interested people please chat with me",
+      },
+      {
+        name: "Lenovo laptop",
+        image1:
+          "https://apollo-singapore.akamaized.net/v1/files/o2bbn68y851j2-IN/image;s=780x0;q=60",
+        image2:
+          "https://apollo-singapore.akamaized.net/v1/files/uasyfbp9fzxb3-IN/image;s=780x0;q=60",
+        image3:
+          "https://apollo-singapore.akamaized.net/v1/files/a3od6ks552r22-IN/image;s=780x0;q=60",
+        price: "15,000",
+        address: "Abbaiah Reddy Layout, Bengaluru, Karnataka",    
+        State: "Karnataka",
+        Description: "This is a 4gb ram and 330 gb rom. This is a pentium i3 model This laptop is rarely used and is in excellent condition.This laptop was purchased 3 years ago for 33k.Only laptop and charging cable is available.This has official windows 10 version.",
+      },
+      {
+        name: "iPhone 11",
+        image1:
+          "https://apollo-singapore.akamaized.net/v1/files/8xlwna5cz27g3-IN/image;s=780x0;q=60",
+        image2:
+          "https://apollo-singapore.akamaized.net/v1/files/g0nnwu9u5f0k1-IN/image;s=780x0;q=60",
+        image3:
+          "https://apollo-singapore.akamaized.net/v1/files/pbpryojxmtzh1-IN/image;s=780x0;q=60",
+        price: "24,999",
+        address: "Samudrapur, Maharashtra, India",    
+        State: "Maharashtra",
+        Description: "64 GB ROM, 128 GB ROM.15.49 cm (6.1 inch) Liquid Retina HD Display For More Info Please Contact Us. On Biggest Discount.* In Unlimited stock.*1 Year warranty*",
+      },
+      {
+        name: "Living room decorative wall shelf",
+        image1:
+          "https://apollo-singapore.akamaized.net/v1/files/w9ttkifbadtm3-IN/image;s=780x0;q=60",
+        image2:
+          "https://apollo-singapore.akamaized.net/v1/files/kbgids6s3ksb-IN/image;s=780x0;q=60",
+        image3:
+          "https://apollo-singapore.akamaized.net/v1/files/kcdt3bl5a3an-IN/image;s=780x0;q=60",
+        price: "800",
+        address: "Samudrapur, Maharashtra, India",    
+        State: "Maharashtra",
+        Description: "Material: Wooden,Pack: Pack of 1,Product Length: 30 cm, Product Breadth: 30 cm,Product Height: 10 cm,No. of Shelves: 4,Country of Origin: India",
+      },
+
+]
+
 let container1 = document.getElementById("products");
-container1.innerHTML = null;
+// container1.innerHTML = null;
 
 let container2 = document.getElementById('more');
 container2.innerHTML = null;
 
-let append = (products) => {
-  products.forEach((el) => {
+let append = (data) => {
+  data.forEach((el) => {
     let box = document.createElement("div");
+    box.addEventListener('click',function(){
+       location.href = "description.html"
+    })
 
     let pic = document.createElement("img");
     pic.src = el.image1;
@@ -458,7 +533,7 @@ let append = (products) => {
   });
 };
 
-append(products);
+append(data);
 
 let append1 = (motorcycle) => {
     motorcycle.forEach((el) => {
@@ -481,3 +556,11 @@ let append1 = (motorcycle) => {
     });
   };
   append1(motorcycle)
+
+  let btn = document.getElementById('btn-load');
+  btn.addEventListener('click',addData)
+
+
+  function addData(){
+    append(bufferData);
+  }
