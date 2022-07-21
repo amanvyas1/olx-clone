@@ -14,8 +14,40 @@ p{
     height: 200px;
     border: 1px solid red;
     margin: 20px auto;
-   
+    background-color: #ebeeef;
+    display: flex;
+    gap: 20px; 
 }
+#more>div{
+
+    border: 1px solid teal;
+    width: 20%;
+    height: 100px;
+}
+#more>div>img{
+    width: 100%;
+    height: 10  0px;
+
+}
+#more>div>h3{
+    font-size: 20px;
+    color: #002f34;
+    margin-left: 10px;
+}
+#more>div>h3+p{
+    margin-left: 10px;
+    font-size: 14px;
+    color: rgba(0,47,52,.64);
+    margin-top: 10px;
+}
+#more>div>p+p{
+    margin-left:10px;
+    font-size: 10px;
+    color: rgba(0,47,52,.64);
+    margin-top: 10px;
+}
+
+
 #products{
     width: 80%; 
     margin: 20px auto;
@@ -38,12 +70,13 @@ p{
     margin-left: 10px;
     font-size: 14px;
     color: rgba(0,47,52,.64);
+    margin-top: 10px;
 }
 #products>div>p+p{
     margin-left:10px;
     font-size: 10px;
     color: rgba(0,47,52,.64);
-    margin-top: 20px;
+    margin-top: 10px;
 
 }
 #products>div>img{
