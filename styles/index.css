@@ -22,11 +22,12 @@ p{
 
     border: 1px solid teal;
     width: 20%;
-    height: 100px;
+    height: 100%;
+    background-color: #ffffff;
 }
 #more>div>img{
     width: 100%;
-    height: 10  0px;
+    height: 100px;
 
 }
 #more>div>h3{
@@ -91,3 +92,23 @@ p{
     border: 1px solid;
     margin: 20px auto;
 }
+li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+li>button{
+    padding: 0px 10px;
+    font-size: 16px;
+    color: #002F34;
+    background-color: transparent;
+    border-radius: 4px;
+    height: 48px;
+    font-weight: 700;
+}
+li>button:hover{
+    border: 4px solid;
+    cursor: pointer;
+}
+
+
