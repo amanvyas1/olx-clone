@@ -45,7 +45,7 @@ let products = [
         image2:"https://apollo-singapore.akamaized.net/v1/files/yvblrqkpfdee1-IN/image;s=780x0;q=60",
         image3:"https://apollo-singapore.akamaized.net/v1/files/g6m7e524y2b51-IN/image;s=780x0;q=60",
         price:"3,15,000",
-        address:"THE BIKE FACTORY SHOP NUMBER 38 39 VISHAL CHS SILVER PARK NEAR FIREBRIGADE AND SHIVSENA OFFICE MIRA RD EAST THANE 401107",
+        address:"THE BIKE FACTORY SHOP NUMBER 38 39  MIRA RD EAST THANE 401107",
         State:"Maharashtra",
         Description:"ROYAL ENFIELD CONTINENTAL GT 650 JUST LIKE NEW BRAND NEW CONDITION ONLY 8 MONTHS OLD 3000km 1st owner 2KEYS"
     },

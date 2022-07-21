@@ -2,18 +2,55 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    margin-left: 150px;
+    width: fit-content;
+    font-size: 24px;
 }
 #more{
     width: 80%;
     height: 200px;
     border: 1px solid red;
     margin: 20px auto;
+   
 }
 #products{
-    width: 80%;
-    height: 500px;
-    border: 1px solid teal;
+    width: 80%; 
     margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+#products>div{
+    border: 1px solid rgba(14,4,5,.2);
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+}
+#products>div>h3{
+    font-size: 20px;
+    color: #002f34;
+    margin-left: 10px;
+}
+#products>div>h3+p{
+    margin-left: 10px;
+    font-size: 14px;
+    color: rgba(0,47,52,.64);
+}
+#products>div>p+p{
+    margin-left:10px;
+    font-size: 10px;
+    color: rgba(0,47,52,.64);
+    margin-top: 20px;
+
+}
+#products>div>img{
+    display: block;
+    margin: 20px auto;
+    width: 70%;
+    height: 200px;
 }
 #footer{
     width: 100%;
