@@ -4,202 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Commercial & Other Vehicles
-    </title>
-    <style>
-        #commercial{
-            width:60%;
-            height: 100%;
-            display: grid;
-            margin-top: 10px;
-            
-            
-           
-            grid-template-columns: repeat(3,1fr);
-            grid-template-rows: repeat(5,300px);
-            gap:10px;
-            text-align: center;
-            margin-left: 450px;
-            line-height: 10px;
-
-        }
-        #commercial>div{
-            border:1px solid black;
-            width:100%;
-            height:100%;
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-            cursor: pointer;
-        }
-        #image{
-            height:200px;
-            width:200px;
-        }
-        button{
-                
-               
-                cursor: pointer;
-                margin-left: 860px;
-                margin-top: 20px;
-                display: block;
-                font-size: 20px;
-                 }
-        button:hover{
-                    color:blue;
-                    border: 2px solid black;
-                    
-                 }
-                  
-    #footer{
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        padding-top: 30px;
-        width:100%;
-        height:230px;
-        
-        display:flex;
+    <title>Commercial & Other Vehicles</title>
+    <link rel="stylesheet"href="./styles/commercial.css">
+    
+    
        
-    }
-    #footer>div{
-        
-        height:200px;
-        width:25%;
-        text-align: center;
-        cursor: pointer;
-        background-color: rgb(102, 69, 69);
-        }
-        #footer>div>p{
-            color: white;
-            line-height: 10px;
-            }
-            #sidebar{
-                border:1px solid black;
-                width:400px;
-                height:600px;
-                
-                margin-left:0px;
-                text-align: center;
-                
-
-            }
-    </style>
 </head>
 <body>
     <div id="header-container">
 
     </div>
-    <div id="mobile-header"></div>
-    
-   
-   
-   
-   <div id="sidebar">
-    <div>
-        <h1>Use Scooters</h1>
-        <h2>Categories</h2>
+    <!-- <div id="mobile-header"></div> -->
+    <div id="block-2">
         
-        <h2>Locations</h2>
-    </div>
-   </div>
-   
-    <div id="commercial">
-         <div>
-            <img id="image" src="https://apollo-singapore.akamaized.net/v1/files/p6x4f64p9thr2-IN/image;s=300x600;q=60">
-            <h2> ₹ 5,20,000</h2>
-             <h4>Hyundai Xcent Base</h4>
-             <p>Navnagarpura, Ahmedabad,Gujrat</p>
-        </div>
-    
+        <div id="sidebar">
             <div>
-                <img id="image" src="https://apollo-singapore.akamaized.net/v1/files/ccz8pf0ie2q23-IN/image;s=300x600;q=60">
-                <h2> ₹ 1,00,000</h2>
-                 <h4>Hyundai Xcent Base</h4>
-                 <p>Kalyan,mumbai,maharashtra</p>
-            </div>
-        
-        <div>
-            <img id="image" src="https://apollo-singapore.akamaized.net/v1/files/w2d1dwk87fqb3-IN/image;s=300x600;q=60">
-            <h2> ₹ 85,000</h2>
-             <h4>Maruti Suzuki Wagnor H3 </h4>
-             <p>Bhandup,mumbai,maharashtra</p>
-        </div>
-        <div>
-            <img id="image" src="https://apollo-singapore.akamaized.net/v1/files/zwnz8567xo2x-IN/image;s=300x600;q=60">
-            <h2> ₹ 2,10,000</h2>
-             <h4>Bolero </h4>
-             <p>Garigaon,Guwahati</p>
-        </div>
-        <div>
-            <img id="image" src="https://apollo-singapore.akamaized.net/v1/files/sc27g3glbec22-IN/image;s=300x600;q=60">
-            <h2> ₹ 84,000</h2>
-             <h4>B.S. Agro Rotavators</h4>
-             <p>Amritsar,panjab</p>
-        </div>
-        <div>
-            <img id="image" src="https://apollo-singapore.akamaized.net/v1/files/r2hh5gvd85l93-IN/image;s=300x600;q=60">
-            <h2> ₹ 4,30,000</h2>
-             <h4>Willy Jeep</h4>
-             <p>mohali,panjab</p>
-        </div>
-        <div>
-            <img id="image" src="https://apollo-singapore.akamaized.net/v1/files/ezwjfbefdsd32-IN/image;s=300x600;q=60">
-            <h2> ₹ 26,000</h2>
-             <h4>Piaggio-Appe</h4>
-             <p>jaipur,rajsthan</p>
-        </div>
-        <div>
-            <img id="image" src="https://apollo-singapore.akamaized.net/v1/files/c0ymdqcavxfu-IN/image;s=300x600;q=60">
-            <h2> ₹ 7,69,000</h2>
-             <h4>Vintage wedding replica car</h4>
-             <p>Noida,Delhi</p>
+                <h1>Used Scooters</h1>
 
+                <h2>CATEGORIES</h2>
+                <select name="category" id="">
+                    <option value=""> All categories</option>
+                    <option value="">commercial and other Vehicles</option>
+                   
+                     </select>
+                
+                <h2>LOCATIONS</h2>
+                <select name="states" id="">
+                    <option value="states">state</option>
+                    <option value="MAH">Maharashtra</option>
+                    <option value="MP">Madhya Pradesh</option>
+                    <option value="Rj">Rajshtan</option>
+                    <option value="kn">Karnatak</option>
+                    <option value="UP">Uttar pradesh</option>
+                </select>
+            </div>
         </div>
-        <div>
-            <img id="image" src="https://apollo-singapore.akamaized.net/v1/files/nxgtwxxqgj783-IN/image;s=300x600;q=60">
-            <h2> ₹ 7,42,000</h2>
-             <h4> Restored Vintage car</h4>
-             <p>Ludhiyana,Panjab</p>
-        </div>
-        <div>
-            <img id="image" src="https://apollo-singapore.akamaized.net/v1/files/fczdverzowpi3-IN/image;s=300x600;q=60">
-            <h2> ₹ 4,42,000</h2>
-             <h4> Jeep</h4>
-             <p>Indore, madhya pradesh</p>
-        </div>
-        <div>
-            <img id="image" src="https://apollo-singapore.akamaized.net/v1/files/k14t83npr1g83-IN/image;s=300x600;q=60">
-            <h2> ₹ 32,000</h2>
-             <h4>Tata Ace </h4>
-             <p>Bhopal, madhya pradesh</p>
-        </div>
-        <div>
-            <img id="image" src="https://apollo-singapore.akamaized.net/v1/files/os1y8f3fo9th1-IN/image;s=300x600;q=60">
-            <h2> ₹ 8,32,000</h2>
-             <h4>Tata Intra </h4>
-             <p>Shyam Bazar Kolkata</p>
-        </div>
-        <div>
-            <img id="image" src="https://apollo-singapore.akamaized.net/v1/files/703w3f2pm9db1-IN/image;s=300x600;q=60">
-            <h2> ₹ 7,32,000</h2>
-             <h4>Mahindra Bolero Maxi Truck </h4>
-             <p>jaipur,Rajsthan</p>
-        </div>
-        <div>
-            <img id="image" src="https://apollo-singapore.akamaized.net/v1/files/j8eaphohdumq3-IN/image;s=300x600;q=60">
-            <h2> ₹ 4,25,000</h2>
-             <h4>Jeep-Jain Motors </h4>
-             <p>pune,maharashtra</p>
-        </div>
-        <div>
-            <img id="image" src="https://apollo-singapore.akamaized.net/v1/files/049619w7zzf7-IN/image;s=300x600;q=60">
-            <h2> ₹ 10,00,000</h2>
-             <h4>Eicher,School Bus </h4>
-             <p>Gandhinagar,Gujrat</p>
-        </div>
-          
+    
+            
+
        
+     <div id="commercial">
+        
+        
+        
+      </div>
      </div>
-     <div>
-        <button>Load More</button>
-     </div>
+     
+     
+       <li><button id="btn load">Load More</button></li> 
+     
     <div id="footer">
         <div>
             <h2>Popular Locations</h2>
@@ -232,6 +85,8 @@
             <p>OLX People</p>
             <p>Blog</p> 
         </div>
-    
+        
+    </div>
 </body>
 </html>
+<script  src="./scripts/commercial.js"></script>
