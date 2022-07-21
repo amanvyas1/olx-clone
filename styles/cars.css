@@ -9,18 +9,19 @@
     width: 80%;
     margin: auto;
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
 }
 
 #filter-container{
     width: 30%;
-    border: 1px solid black;
+    padding: 0 15px;
+    /* border: 1px solid black; */
 }
 
 #products-container{
     width: 70%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 #sort-container{
@@ -72,3 +73,64 @@
     margin: 10px auto;
 }
 
+#btn-load{
+    display: block;
+    width:15%;
+    margin: 10px auto;
+}
+
+#footer1{
+    display: flex;
+    background-color:#EBEEEF;
+}
+
+#sections{
+    display: flex;
+}
+
+#footer2{
+    background-color: rgb(0,47,52);
+}
+
+.grey{
+   color:rgba(0,47,52,.64);
+   font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+    color:rgba(0,47,52,.64);
+}
+
+#lc {
+    font-size: 24px;
+}
+
+.fil{
+    font-size: 16px;
+}
+
+.opt{
+    color: #002f34;
+    font: 14px;
+}
+
+.name{
+    font-size:14px;
+}
+
+.add{
+    font-size:10px;
+}
+
+.border>p{
+    border: 0.6px solid rgba(14,4,5,.2);
+    border-radius: 2.4px;
+    cursor:pointer;
+    padding:0 8px;
+    margin:0 0 8px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    height: 30px;
+}
