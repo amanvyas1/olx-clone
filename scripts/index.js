@@ -564,3 +564,8 @@ let append1 = (motorcycle) => {
   function addData(){
     append(bufferData);
   }
+
+ let btn2 = document.getElementById('btnback');
+ btn2.addEventListener('click',function(){
+          document.documentElement.scrollTop = 0;
+ })
