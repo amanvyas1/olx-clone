@@ -8,29 +8,14 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="header-container">
-       
-    </div>
-    <div id="divider">
-        
-    </div>
-    <div id="menu">
-       
-    </div>
-
-    <div id="mobile-header">
-        
-        
-        
-    </div>
-    
+    <nav></nav>
+   
     
 </body>
 <script src="script.js"></script>
 <script type="module">
-    import  {desktop_navbar,mobile_navbar,menu} from "./components/navbar.js"
-    document.getElementById("header-container").innerHTML=desktop_navbar();
-    document.getElementById("menu").innerHTML=menu();
-    document.getElementById("mobile-header").innerHTML=mobile_navbar();
+    import navbar from "./components/navbar.js";
+    document.querySelector("nav").innerHTML=navbar();
 </script>
+
 </html>
