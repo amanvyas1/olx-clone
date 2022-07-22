@@ -174,3 +174,93 @@ i.fa-regular.fa-circle{
     }
     
   }
+  /* // mega menu */
+
+  #mega-content {
+    width: 100%;
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 28px;
+    row-gap: 54px;
+    
+}
+
+#megamenu-box {
+    width: 83%;
+    background: #ffffff;
+    margin: auto;
+    margin-top: 3px;
+    padding: 28px 50px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+#mega-menu{
+    cursor: pointer;
+}
+.megamenu-links>li>a {
+    text-decoration: none;
+    color: black;
+    line-height: 27px;
+    
+}
+h4{
+    margin-bottom: 10px;
+}
+ul{
+    list-style: none;
+}
+.megamenu-links>li>a:hover {
+    color: blue;
+    
+}
+/* //login  */
+#login-signup {
+    display: grid;
+    width: 100%;
+    place-items: center;
+    height: 66vh;
+}
+
+#login-signup {
+    display: grid;
+    width: 100%;
+    place-items: center;
+    height: 100vh;
+    background: black;
+    position: absolute;
+    opacity: 0.7;
+    top: 0;
+}
+#login-signup input {
+    display: block;
+    width: 144%;
+    border-width: 0px 0px 2px 0px;
+    height: 37px;
+    margin-bottom: 32px;
+   
+    padding: 15px;
+}
+#auth-container, #signup, #login {
+    padding: 56px 140px 56px 30px;
+    background: white;
+    text-align: center;
+   
+}
+#btn-checklogin, #btn-login, #btn-signup {
+    padding: 12px 54px;
+    text-align: center;
+    margin-left: 74px;
+    border-radius: 50px;
+    background: blue;
+    color: white;
+}
+#login1{
+    cursor: pointer;
+    font-size: 20px;
+}
+#logout {
+    padding: 8px;
+    border-radius: 4px;
+    color: white;
+    background: blue;
+}
