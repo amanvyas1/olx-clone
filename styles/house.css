@@ -1,0 +1,41 @@
+#main {
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+#adds {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid red; */
+    border: 1px solid rgb(218, 202, 202);
+    margin-bottom: 100px;
+}
+#adds > div > img {
+    width: 60%;
+}
+#product_part {
+    /* border: 1px solid teal; */
+    display: flex;
+}
+#sidebar {
+    /* border: 1px solid blue; */
+    width: 30%;
+}
+#apartments {
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(10, auto);
+    gap: 20px;
+}
+/* #apartments > div > img {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+#apartments > div {
+    border: 1px solid rgb(218, 202, 202);
+} */
