@@ -326,7 +326,7 @@ Lock System: Central
 Make Month: February
 Parking Sensors: Yes
 Power steering: Yes`},
-{name:'Tata Indica V2',image1:'https://in.fcgapi.com/image/olxautos-prd-inspection-images-ap-southeast-1/5dd9171e-57f8-4d41-9d48-0528ccb4b23c/270127/850/478?watermark=false&country=in&cache=true',image2:'https://in.fcgapi.com/image/olxautos-prd-inspection-images-ap-southeast-1/5dd9171e-57f8-4d41-9d48-0528ccb4b23c/270131/850/478?watermark=false&country=in&cache=true',image3:'https://apollo-singapore.akamaized.net/v1/files/n7zka920b0nv-IN/image;s=780x0;q=60',price:38000,km:50000,brand:'Tata',address:'Afzul',city:'Indore',description:`Make: Tata
+{name:'Tata Indica V2',image1:'https://in.fcgapi.com/image/olxautos-prd-inspection-images-ap-southeast-1/5dd9171e-57f8-4d41-9d48-0528ccb4b23c/270127/850/478?watermark=false&country=in&cache=true',image2:'https://in.fcgapi.com/image/olxautos-prd-inspection-images-ap-southeast-1/5dd9171e-57f8-4d41-9d48-0528ccb4b23c/270131/850/478?watermark=false&country=in&cache=true',image3:'https://apollo-singapore.akamaized.net/v1/files/n7zka920b0nv-IN/image;s=780x0;q=60',price:38000,km:50000,brand:'Tata',address:'Vijaywada',city:'Indore',description:`Make: Tata
 Year: 2006
 Model: Indica V2
 Variant: 2009-2011 DLG BSII
@@ -426,7 +426,7 @@ Make Month: March
 Parking Sensors: Yes`}
 ]
 
-localStorage.setItem('cars', JSON.stringify(carData));
+
 
 let append = (data)=>{
     let container = document.querySelector("#products")
@@ -489,12 +489,7 @@ let handleSorting = (event) => {
 }
 
 
-let btt = document.querySelector("#btn-btt")
-document.querySelector("#btn-btt").addEventListener("click", () =>{
-    document.body.scrollIntoView({
-        behavior: "smooth",
-      });
-});
+
 
 let loadMore = document.querySelector("#btn-load")
 loadMore.addEventListener("click", (event) =>{
@@ -648,3 +643,24 @@ let kilometerFilter = (val)=>{
     }
 }
 
+
+let btn2 = document.getElementById('btnback');
+btn2.addEventListener("click", backTop);
+
+  window.onscroll = function(){
+    scrollFunction()
+  }
+
+  function scrollFunction(){
+    if(document.body.scrollTop >500 || document.documentElement.scrollTop > 500 ){
+      btn2.style.display = 'block';
+    }else{
+      btn2.style.display = 'none';
+    }
+  }
+
+ function backTop(){
+    document.body.scrollIntoView({
+             behavior: "smooth",
+       });
+ }

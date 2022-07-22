@@ -1,0 +1,98 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motorcycles Page</title>
+    <link rel="stylesheet" href="./styles/motorcycles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav></nav>
+    <div id="container">
+        <div id="filter-container">
+            <p class="grey">Home / Bikes</p>
+            <h1 id="lc">Used Bikes in India</h1>
+            <!-- <div class="hr"></div> -->
+            <div>
+                <div>
+                    <h3 class="fil">LOCATION</h3>
+                </div>
+                <div class="opt border" id="location">
+                    <p>Mumbai</p>
+                    <p>Pune</p>
+                    <p>Bengalore</p>
+                    <p>Bhopal</p>
+                    <p>Indore</p>
+                    <p>Delhi</p>
+                </div>
+            </div>
+            <div class="hr"></div>
+            <div>
+                <div>
+                    <h3 class="fil">BRAND</h3>
+                </div>
+                <div class="opt border" id="brand">
+                    <p>Bajaj</p>
+                    <p>Royal Enfield</p>
+                    <p>Hero</p>
+                    <p>Yamaha</p>
+                    <p>Honda</p>
+                </div>
+            </div>
+            <div class="hr"></div>
+            <div>
+                <div>
+                    <h3 class="fil">BUDGET</h3>
+                    <p class="grey">Choose from options below</p>
+                </div>
+                <div class="opt border" id="budget">
+                    <p>Below 30000 Rs</p>
+                    <p>30000 - 45000 Rs</p>
+                    <p>45000 - 60000 Rs</p>
+                    <p>60000 - 75000 Rs</p>
+                    <p>75000 - 90000 Rs</p>
+                    <p>90000 Rs and above</p>
+                </div>
+            </div>
+            <div class="hr"></div>
+            <div>
+                <div>
+                    <h3 class="fil">KM DRIVEN</h3>
+                    <p class="grey">Choose from options below(km)</p>
+                </div>
+                <div class="opt border" id="kilometer">
+                    <p>Below 10000km</p>
+                    <p>10000 - 20000km</p>
+                    <p>20000 - 30000km</p>
+                    <p>30000 - 40000km</p>
+                    <p>40000km and above</p>
+                </div>
+            </div>
+            <!-- <div class="hr"></div> -->
+        </div>
+        <div id="products-container">
+            <div id="sort-container">
+                <label for="sort" class="srt">SORT BY:</label>
+                <select name="sort" id="sort">
+                    <option value="relevance">Relevance</option>
+                    <option value="lth">Price:low to high</option>
+                    <option value="htl">Price:high to low</option>
+                </select>
+            </div>
+            <div class="hr"></div>
+            <div id="products">
+
+            </div>
+        </div>
+    </div>
+    <button id="btn-load">Load More</button>
+    <button id="btnback"><i class="fas fa-angle-up"></i>Back to top</button>
+</body>
+
+</html>
+<script type="module" src="./scripts/motorcycles.js"></script>

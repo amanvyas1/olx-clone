@@ -73,35 +73,7 @@ ul{
     height: 100%;
 }
 
-/* for footer */
-#footer1{
-    display: flex;
-    background-color:#EBEEEF;
-}
 
-#sections{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    gap: 30px;
-    padding: 20px;
-    line-height: 20px;
-    
-}
-
-#footer2{
-    background-color: rgb(0,47,52);
-    padding: 16px;
-}
-
-#footer2>div{
-    color: white;
-    display: flex;
-    font-size: 12px;
-    line-height: 18px;
-    justify-content: space-between;
-}
-/* footer end */
 
 .grey{
    color:rgba(0,47,52,.64);
