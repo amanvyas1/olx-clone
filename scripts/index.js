@@ -418,19 +418,60 @@ let motorcycle = [
     State: "Haryana",
     Description: "Brand:Bajaj,Model:RS200, KM Driven:5000km, Year:2019",
   },
-  {
-    name: "Apache RTR 200",
-    image1:
-      "https://apollo-singapore.akamaized.net/v1/files/qw744fi9jdsn2-IN/image;s=780x0;q=60",
-    image2:
-      "https://apollo-singapore.akamaized.net/v1/files/f785df6umzru3-IN/image;s=780x0;q=60",
-    image3:
-      "https://apollo-singapore.akamaized.net/v1/files/ynfwx9uxuy311-IN/image;s=780x0;q=60",
-    price: "1,45,000",
-    address: "Jal vayu Vihar, Noida, Uttar Pradesh",
-    State: "Uttar Pradesh",
-    Description: "Brand:TVS,Model:Apache RTR, KM Driven:9,200 km, Year:2022",
-  },
+  // {
+  //   name: "Apache RTR 200",
+  //   image1:
+  //     "https://apollo-singapore.akamaized.net/v1/files/qw744fi9jdsn2-IN/image;s=780x0;q=60",
+  //   image2:
+  //     "https://apollo-singapore.akamaized.net/v1/files/f785df6umzru3-IN/image;s=780x0;q=60",
+  //   image3:
+  //     "https://apollo-singapore.akamaized.net/v1/files/ynfwx9uxuy311-IN/image;s=780x0;q=60",
+  //   price: "1,45,000",
+  //   address: "Jal vayu Vihar, Noida, Uttar Pradesh",
+  //   State: "Uttar Pradesh",
+  //   Description: "Brand:TVS,Model:Apache RTR, KM Driven:9,200 km, Year:2022",
+  // },
+  // {
+  //   name: "SUZUKI GIXXER SF",
+  //   image1:
+  //     "https://apollo-singapore.akamaized.net/v1/files/n7yw9to9sph22-IN/image;s=780x0;q=60",
+  //   image2:
+  //     "https://apollo-singapore.akamaized.net/v1/files/pemqmay7q3sl2-IN/image;s=780x0;q=60",
+  //   image3:
+  //     "https://apollo-singapore.akamaized.net/v1/files/wlcsh2r4tfab2-IN/image;s=780x0;q=60",
+  //   price: "1,30,000",
+  //   address: "Param Jeet Ganj, Kapurthala, Punjab",
+  //   State: "Punjab",
+  //   Description: "Brand: Suzuki,Model:Gixxer,Year:2019, KM driven: 2,000 km",
+  // },
+  // {
+  //   name: "Honda Dio",
+  //   image1:
+  //     "https://apollo-singapore.akamaized.net/v1/files/s50awjirh45z1-IN/image;s=780x0;q=60 ",
+  //   image2:
+  //     "https://apollo-singapore.akamaized.net/v1/files/lpdvu7ysc7qd3-IN/image;s=780x0;q=60",
+  //   image3:
+  //     "https://apollo-singapore.akamaized.net/v1/files/0ikw83q28etr3-IN/image;s=780x0;q=60",
+  //   price: "64,000",
+  //   address: "Nellikkunnu, Kasaragod, Kerala",
+  //   State: "Kerla",
+  //   Description:
+  //     "MAHINDRA BEST CHOICE Band road kasaragod *loan facility yes *We give one year Engine warranty *4 free service *63 points checked by First choice *Insurance : 2024",
+  // },
+  // {
+  //   name: "Hero Mastro",
+  //   image1:
+  //     "https://apollo-singapore.akamaized.net/v1/files/68olihem923s1-IN/image;s=780x0;q=60",
+  //   image2:
+  //     "https://apollo-singapore.akamaized.net/v1/files/glhbleig28s23-IN/image;s=780x0;q=60",
+  //   image3:
+  //     "https://apollo-singapore.akamaized.net/v1/files/d433ujow90bi-IN/image;s=780x0;q=60",
+  //   price: "28,000",
+  //   address: "Saat Rasta Road, Elephanta Caves, Maharashtra",
+  //   State: "Maharashtra",
+  //   Description:
+  //     "Hero Maestro 2012 Done 23000 Kms in Awesome Condition in Original Paint Single Owner Meter not working ready to use all papers clear Genuine buyers contact no chitchat for more information call",
+  // },
 
 ];
 
@@ -507,7 +548,6 @@ let container1 = document.getElementById("products");
 
 
 let container2 = document.getElementById('more');
-container2.innerHTML = null;
 
 let append = (data) => {
   data.forEach((el) => {
@@ -555,7 +595,7 @@ let append1 = (motorcycle) => {
       container2.append(box);
     });
   };
-  append1(motorcycle)
+   append1(motorcycle)
 
   let btn = document.getElementById('btn-load');
   btn.addEventListener('click',addData)
@@ -582,3 +622,5 @@ let append1 = (motorcycle) => {
  function backTop(){
     document.documentElement.scrollTop = 0;
  }
+
+ 
