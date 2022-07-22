@@ -1,0 +1,87 @@
+ #scooters{
+        
+    display: grid;
+    margin-left: 200px;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows: repeat(4,400px); */
+    gap:20px 20px;
+    width:50%;
+    
+   
+   
+           
+           }
+
+        #scooters>div{
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            border:1px gray;
+            cursor: pointer;
+            text-align: center;
+            line-height: 10px;
+            height: 100%;
+
+        }
+        #scooters>div>img{
+            width:140px;
+            height: 45%;
+        }
+        
+       
+      
+        
+    
+    #footer{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding-top: 30px;
+        width:100%;
+        height:230px;
+        
+        display:flex;
+       
+    }
+    #footer>div{
+        
+        height:200px;
+        width:25%;
+        text-align: center;
+        cursor: pointer;
+        background-color: rgb(102, 69, 69);
+        }
+        #footer>div>p{
+            color: white;
+            line-height: 10px;
+            }
+             button{
+                
+                color:black;
+            
+            
+                cursor: pointer;
+                margin-left: 860px;
+                margin-top: 20px;
+                display: block;
+                font-size: 20px;
+                 }
+
+                 button:hover{
+                    color:blue;
+                    border: 2px solid black;
+                    margin-bottom: 100px;
+                    
+                 } 
+                 #sidebar{
+                    
+                    border:1px solid black;
+                    height:500px;
+                    width:20%;
+                    text-align: center;
+                    
+                    margin-left: 100px;
+                    
+                 }
+                 #block-2{
+                    display: flex;
+                 }
+                
+
+           
