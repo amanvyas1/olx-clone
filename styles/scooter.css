@@ -66,15 +66,19 @@
                  button:hover{
                     color:blue;
                     border: 2px solid black;
-                    margin-bottom: 100px;
+                    
+            
                     
                  } 
                  #sidebar{
                     
                     border:1px solid black;
-                    height:500px;
+                    height:300px;
                     width:20%;
                     text-align: center;
+                    background-color: steelblue;
+                    color: white;
+                    cursor: pointer;
                     
                     margin-left: 100px;
                     
