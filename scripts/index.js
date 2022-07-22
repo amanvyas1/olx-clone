@@ -504,7 +504,7 @@ let bufferData=[
 ]
 
 let container1 = document.getElementById("products");
-// container1.innerHTML = null;
+
 
 let container2 = document.getElementById('more');
 container2.innerHTML = null;
@@ -565,7 +565,20 @@ let append1 = (motorcycle) => {
     append(bufferData);
   }
 
- let btn2 = document.getElementById('btnback');
- btn2.addEventListener('click',function(){
-          document.documentElement.scrollTop = 0;
- })
+  let btn2 = document.getElementById('btnback');
+
+  window.onscroll = function(){
+    scrollFunction()
+  }
+
+  function scrollFunction(){
+    if(document.body.scrollTop >500 || document.documentElement.scrollTop > 500 ){
+      btn2.style.display = 'block';
+    }else{
+      btn2.style.display = 'none';
+    }
+  }
+
+ function backTop(){
+    document.documentElement.scrollTop = 0;
+ }
