@@ -2,8 +2,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE:edge">
+    <meta name="viewport" content="width:device-width, initial-scale:1.0">
     <title>smartphones</title>
     <link rel="stylesheet" href="./styles/phone.css">
 </head>
@@ -16,8 +16,8 @@
             <!-- adverties part  -->
             <div id="adds">
                 <div>
-                    <img src="https://rukminim1.flixcart.com/image/832/832/ko0d6kw0/mobile/1/m/9/iphone-12-mjnm3hn-a-apple-original-imag2k2vnvvgatkv.jpeg?q=70"
-                        alt="iphone-image">
+                    <img src="https://rukminim1.flixcart.com/image/832/832/ko0d6kw0/mobile/1/m/9/iphone-12-mjnm3hn-a-apple-original-imag2k2vnvvgatkv.jpeg?q=70" 
+                    alt="iphone-image">
                 </div>
                 <div>
                     <h3>APPLE iPhone 12 (Purple, 128 GB)</h3>
@@ -28,40 +28,42 @@
                 </div>
             </div>
             <!-- sidebar or filter section  -->
-            <h1>Used Mobile Phones in Andaman & Nicobar Islands</h1>
+            <p>Home/Mobiles</p>
+            <h1>Used Mobile Phones in India</h1>
             <div id="product_part">
                 <div id="sidebar">
                     <h2>CATEGORIES</h2>
                     <select name="category" id="">
+                        <option value="select">select category--</option>
                         <option value="Mobile Phones">Mobiles</option>
                         <option value="accessories">Accessories</option>
                         <option value="tablets">Tablets</option>
                     </select>
                     <hr>
                     <h2>LOCATIONS</h2>
-                    <select name="states" id="">
-                        <option value="andman">Andaman & Nicobar Islands</option>
-                        <option value="port">Port Blair</option>
-                        <option value=""></option>
+                    <select name="location" id="">
+                        <option value="select">select location--</option>
+                        <option value="ad">Andaman & Nicobar Islands</option>
+                        <option value="mh">Maharastra</option>
+                        <option value="kn">Karnataka</option>
+                        <option value="bg">Banglore</option>
+                        <option value="gj">Gujrat</option>
+                        <option value="dl">Delhi</option>
                     </select>
                     <hr>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Blanditiis cupiditate minus veritatis quia necessitatibus
-                        ipsum placeat modi ex veniam? Assumenda deserunt praesentium
-                        architecto nostrum inventore dolorum. Officia aliquid a
-                        maxime!
-                    </p>
+                    <h2>BRAND</h2>
+                    <select name="brand" id="">
+                        <option value="select">select brand--</option>
+                        <option value="vivo">Vivo</option>
+                        <option value="iphone">iPhone</option>
+                        <option value="asus">Asus</option>
+                        <option value="redmi">Redmi</option>
+                        <option value="narzo">Narzo</option>
+                    </select>
                 </div>
                 <!-- product section or smartphone section  -->
                 <div id="smartphones">
-                    <p>220 ads in <span>Andaman & Nicobar Islands</span></p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Numquam illo magni doloremque voluptatum, odio ipsa
-                        exercitationem ea asperiores, dolore, reprehenderit
-                        doloribus dicta at officia veritatis corporis. Cum recusandae
-                        animi libero.
-                    </p>
+                    
                 </div>
             </div>
         </div>
@@ -69,3 +71,241 @@
 </body>
 
 </html>
+<script>
+    products = [
+{img : "https://apollo-singapore.akamaized.net/v1/files/5d2a4b2p05n41-IN/image;s:300x600;q:60",
+price : "9,012",
+name : "Vivo",
+address : "TAPU BASTI, BAMBOOFL",
+state : "Andaman & Nicobar Islands",
+category : "phone"
+},
+{img : "https://apollo-singapore.akamaized.net/v1/files/jvw201pjq23s2-IN/image;s:300x600;q:60",
+price : "25,000",
+name : "iPhones",
+address : "KAMRAJ NAGAR",
+state : "Maharastra",
+category : "phone"
+},
+{img : "https://apollo-singapore.akamaized.net/v1/files/59uj8an5ka4t1-IN/image;s:300x600;q:60",
+price : "28,000",
+name : "ASUS",
+address : "KAMRAJ NAGAR",
+state : "Maharastra",
+category : "phone"
+},
+{img : "https://apollo-singapore.akamaized.net/v1/files/16e0xcg2onv82-IN/image;s:300x600;q:60",
+price : "48,000",
+name : "iPhone",
+address : "JUNGLIGHAR",
+state : "Maharastra",
+category : "phone"
+},
+{img : "https://apollo-singapore.akamaized.net/v1/files/zvs3f33zr2q4-IN/image;s:300x600;q:60",
+price : "80,000",
+name : "iPhone",
+address : "ABERDEEN BAZAR",
+state : "Karnataka",
+category : "phone"
+},
+{img : "https://apollo-singapore.akamaized.net/v1/files/726u57034vvw-IN/image;s:300x600;q:60",
+price : "25,500",
+name : "iPhone",
+address : "AF SCHOOL STAFF",
+state : "Banglore",
+category : "phone"
+},
+{img : "https://apollo-singapore.akamaized.net/v1/files/mx8ycr7g6tzl3-IN/image;s:300x600;q:60",
+price : "7,500",
+name : "Redmi",
+address : "GARACHARMA",
+state : "Gujrat",
+category : "phone"
+},
+{img : "https://apollo-singapore.akamaized.net/v1/files/ghej4ae11rh8-IN/image;s:300x600;q:60",
+price : "3,200",
+name : "Redmi",
+address : "BAKULTALA",
+state : "Andaman & Nicobar Islands",
+category : "phone"
+},
+{img : "https://apollo-singapore.akamaized.net/v1/files/421w4403ivyo-IN/image;s:300x600;q:60",
+price : "6,000",
+name : "Vivo",
+address : "PHASE 1, BATALA",
+state : "Delhi",
+category : "phone"
+},
+{img : "https://apollo-singapore.akamaized.net/v1/files/czlj3493wrii-IN/image;s:300x600;q:60",
+price : "10,999",
+name : "iPhone",
+address : "INDIRA NAGAR",
+state : "Karnataka",
+category : "phone"
+},
+{img : "https://apollo-singapore.akamaized.net/v1/files/1ra5mpb8xqdu1-IN/image;s:300x600;q:60",
+price : "7,00,000",
+name : "Echa hauchi",
+address : "BAKUTALA",
+state : "Andaman & Nicobar Islands",
+category : "tablet"
+},
+{img : "https://apollo-singapore.akamaized.net/v1/files/fczcrc0c67qg-IN/image;s:300x600;q:60",
+price : "20,000",
+name : "iPhone",
+address : "JUNGLIGHAR",
+state : "Banglore",
+category : "phone"
+},
+{img : "https://apollo-singapore.akamaized.net/v1/files/lm0491e5fmcm1-IN/image;s:300x600;q:60",
+price : "10,000",
+name : "Redmi",
+address : "ABERDEEN BAZAR",
+state : "Karnataka",
+category : "phone"
+},
+{img : "https://apollo-singapore.akamaized.net/v1/files/uruhavdny9pk2-IN/image;s:300x600;q:60",
+price : "9,000",
+name : "Accessories",
+address : "BAKULTALA",
+state : "Gujrat",
+category : "Accessories"
+},
+{img : "https://apollo-singapore.akamaized.net/v1/files/0ii7spsxlc7c3-IN/image;s:300x600;q:60",
+price : "20,000",
+name : "iPhone",
+address : "MALACCA",
+state : "Banglore",
+category : "phone"
+},
+{img : "https://apollo-singapore.akamaized.net/v1/files/fqqe54uv5z1a3-IN/image;s:300x600;q:60",
+price : "10,500",
+name : "Vivo",
+address : "G T B Nagar",
+state : "Maharastra",
+category : "phone"
+},
+{img : "https://apollo-singapore.akamaized.net/v1/files/8fwz1e1in1ki3-IN/image;s:300x600;q:60",
+price : "89,999",
+name : "iPhone",
+address : "INA, Delhi",
+state : "Delhi",
+category : "phone"
+},
+{img : "https://apollo-singapore.akamaized.net/v1/files/1ho7lg8wblen1-IN/image;s:300x600;q:60",
+price : "15,000",
+name : "Redmi",
+address : "DIVA, THANE",
+state : "Maharastra",
+category : "phone"
+},
+{img : "https://apollo-singapore.akamaized.net/v1/files/u1oa38rlj4wr3-IN/image;s:300x600;q:60",
+price : "6,000",
+name : "Narzo",
+address : "JUNGLIGHAR",
+state : "Andaman & Nicobar Islands",
+category : "phone"
+},
+{img : "https://apollo-singapore.akamaized.net/v1/files/0nw098q6paeg2-IN/image;s:300x600;q:60",
+price : "33,000",
+name : "Apple Watch",
+address : "KADAPA",
+state : "Gujrat",
+category : "accessories"
+},
+{img : "https://apollo-singapore.akamaized.net/v1/files/ox1078uxt8yy2-IN/image;s:300x600;q:60",
+price : "550",
+name : "Mobile Accessories",
+address : "PIRAYIRI, PALAKKAD",
+state : "Maharastra",
+category : "accessories"
+},
+{img : "https://apollo-singapore.akamaized.net/v1/files/r2itjfz51u062-IN/image;s:300x600;q:60",
+price : "10,000",
+name : "Apple Airpods New",
+address : "GOPAL PUR, DELHI",
+state : "Delhi",
+category : "accessories"
+},
+{img : "https://apollo-singapore.akamaized.net/v1/files/hnt8y30vn7be2-IN/image;s:300x600;q:60",
+price : "450",
+name : "All boat model airdopes",
+address : "MUSTAFABAD, DELHI",
+state : "Delhi",
+category : "accessories"
+},
+{img : "https://apollo-singapore.akamaized.net/v1/files/xxy48ybnh6a52-IN/image;s:300x600;q:60",
+price : "6,500",
+name : "Skull candy hesh Anc",
+address : "GOVERNORPETA",
+state : "Banglore",
+category : "accessories"
+},
+{img : "https://apollo-singapore.akamaized.net/v1/files/5aqtukud7qv43-IN/image;s:300x600;q:60",
+price : "20,000",
+name : "iPad Mini 5",
+address : "JAYANAGAR",
+state : "Maharastra",
+category : "tablets"
+},
+{img : "https://apollo-singapore.akamaized.net/v1/files/9bm03z8z9lmi1-IN/image;s:300x600;q:60",
+price : "1,15,000",
+name : "iPad Pro",
+address : "BENGALURU",
+state : "Banglore",
+category : "tablets"
+},
+{img : "https://apollo-singapore.akamaized.net/v1/files/8vhthz0biyzb3-IN/image;s:300x600;q:60",
+price : "9,000",
+name : "Huawei Mediapad",
+address : "KENGUNTE",
+state : "Banglore",
+category : "tablets"
+},
+{img : "https://apollo-singapore.akamaized.net/v1/files/lmfctjvbscjv-IN/image;s:300x600;q:60",
+price : "28,000",
+name : "Apple 8th Generation",
+address : "VASHI, NAVI MUMBAI",
+state : "Maharastra",
+category : "tablets"
+},
+{img : "https://apollo-singapore.akamaized.net/v1/files/2lx58umk9gzh3-IN/image;s:300x600;q:60",
+price : "45,000",
+name : "iPad pro 11 inch",
+address : "MAYANGIMPHAL",
+state : "Maharastra",
+category : "tablets"
+},
+{img : "https://apollo-singapore.akamaized.net/v1/files/qf99t3nvyxwf-IN/image;s:300x600;q:60",
+price : "16,000",
+name : "iPad 2 cellular",
+address : "AFZALPUR TAKKE",
+state : "Karnataka",
+category : "tablets"
+}
+]
+    
+    function displayProduct (products) {
+        document.querySelector("#smartphones").innerHTML="";
+        
+        products.forEach( function (el) {
+            let box = document.createElement("div");
+
+            let image = document.createElement("img");
+            image.setAttribute("src", el.img);
+
+            let price = document.createElement("h2");
+            price.innerText = `₹ ${el.price}`;
+
+            let brand = document.createElement("p");
+            brand.innerText = el.name;
+
+            let address = document.createElement("p");
+            address.innerText = el.address;
+
+            box.append(image,price,brand,address);
+            document.querySelector("#smartphones").append(box);
+        })
+    }
+    displayProduct(products);
+</script>

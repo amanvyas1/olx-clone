@@ -24,22 +24,18 @@
     /* border: 1px solid blue; */
     width: 30%;
 }
-#smartphones {
-    /* border: 1px solid red; */
+#apartments {
+    border: 1px solid red;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(10, auto);
     gap: 20px;
 }
-#smartphones > div > img {
+/* #apartments > div > img {
     width: 70%;
     display: block;
     margin: auto;
 }
-#smartphones > div > h2,p,p {
-    display: flex;
-    margin: auto;
-}
-#smartphones > div {
+#apartments > div {
     border: 1px solid rgb(218, 202, 202);
-}
+} */
