@@ -3,14 +3,14 @@
     image:"https://apollo-singapore.akamaized.net/v1/files/p6x4f64p9thr2-IN/image;s=300x600;q=60",
     price: 520000,
     adress:"Shyam Bazar",
-    state:"Kolkata"
+    state:"Karnatak"
   },
   {
     name:"Hyundai Xcent Base",
     image:"https://apollo-singapore.akamaized.net/v1/files/ccz8pf0ie2q23-IN/image;s=300x600;q=60",
     price: 100000,
     adress:"miya Bazar",
-    state:"Kolkata"
+    state:"Karnatak"
   },
   {
     name:"Maruti Suzuki Wagnor H3",
@@ -48,7 +48,7 @@
   {
     name:"Piaggio-Appe",
     image:"https://apollo-singapore.akamaized.net/v1/files/ezwjfbefdsd32-IN/image;s=300x600;q=60",
-    price: 33000,
+    price: 53000,
     adress:"Pkase1 Mohali",
     state:"Panjab"
 
@@ -155,7 +155,7 @@ function append(data){
     let image=document.createElement("img")
     image.src=el.image
     let price=document.createElement("h2")
-    price.innerText=el.price
+    price.innerText="₹"+" "+el.price
     let adress=document.createElement("h4")
     adress.innerText=el.adress
     let state=document.createElement("h4")
@@ -165,7 +165,7 @@ function append(data){
 })
 
 }
-append(data)
+append(products_details)
 function append2(moreData){
     
 moreData.forEach(function(el){
@@ -176,7 +176,7 @@ moreData.forEach(function(el){
     let image=document.createElement("img")
     image.src=el.image
     let price=document.createElement("h2")
-    price.innerText=el.price
+    price.innerText="₹"+" "+el.price
     let adress=document.createElement("h5")
     adress.innerText=el.adress
     let state=document.createElement("h5")
@@ -213,4 +213,123 @@ function  scrollFunction(){
 }
 function backTop(){
   document.documentElement.scrollTop=0;
+}
+
+
+let price=document.getElementById("price");
+price.addEventListener("change",priceFilter)
+
+function priceFilter(event){
+  let selected=price.value
+
+  if(selected=="50"){
+    let filtered=data.filter(function(el){
+
+      return el.price>=40000 && el.price<=200000
+      
+
+    })
+    append(filtered)
+
+  }else if(selected=="200"){
+    let filtered=data.filter(function(el){
+
+      return el.price>=200000 && el.price<=500000
+      
+
+    })
+    append(filtered)
+
+ }else if(selected=="500"){
+  let filtered=data.filter(function(el){
+
+    return el.price>=500000 && el.price<=800000
+    
+
+  })
+  append(filtered)
+}else{
+  let filtered=data.filter(function(el){
+
+    return el.price>=800000 && el.price<=1100000
+    
+
+  })
+  append(filtered)
+
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let state=document.getElementById("location");
+state.addEventListener("change",stateFilter)
+
+function stateFilter(event){
+  let selected=state.value
+
+  if(selected=="MAH"){
+    let filtered=data.filter(function(el){
+
+      return el.state=="Maharashtra"
+      
+
+    })
+    append(filtered)
+
+  }else if(selected=="MP"){
+    let filtered=data.filter(function(el){
+
+      return el.state=="Madhya Pradesh"
+      
+
+    })
+    append(filtered)
+
+  }else if(selected=="RJ"){
+    let filtered=data.filter(function(el){
+
+      return el.state=="Rajsthan"
+      
+
+    })
+    append(filtered)
+
+
+}else if(selected=="KN"){
+  let filtered=data.filter(function(el){
+
+    return el.state=="Karnatak"
+    
+
+  })
+  append(filtered)
+
+
+}else if(selected=="UP"){
+  let filtered=data.filter(function(el){
+
+    return el.state=="Uttar Pradesh"
+    
+
+  })
+  append(filtered)
+
+
+}
+
 }
