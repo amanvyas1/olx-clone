@@ -3,9 +3,9 @@
  
  #commercial{
     
-    
+    width:80%;
     display: grid;
-    margin-left: 200px;
+    margin-left:50px;
     grid-template-columns: repeat(3,1fr);
     /* grid-template-rows: repeat(4,400px); */
     gap:20px 20px;
@@ -28,7 +28,7 @@
     height: 50%;
 }
 
-button{ cursor: pointer;
+#btn-load{ cursor: pointer;
         margin-left: 860px;
         /* margin-top: 300px; */
         display: block;
@@ -43,8 +43,9 @@ button:hover{
 #footer{
 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 padding-top: 30px;
-width:100%;
+width:90%;
 height:230px;
+margin: auto;
 
 display:flex;
 
@@ -55,10 +56,10 @@ height:200px;
 width:25%;
 text-align: center;
 cursor: pointer;
-background-color: rgb(102, 69, 69);
+background-color: silver;
 }
 #footer>div>p{
-    color: white;
+    color: black;
     line-height: 10px;
     
     }
@@ -67,16 +68,40 @@ background-color: rgb(102, 69, 69);
             border:1px solid black;
             height:300px;
             width:20%;
-            text-align: center;
+            text-align:center;
             display: flex;
             cursor: pointer;
-            margin-left: 20px;
+            margin-left:30px;
             background-color: steelblue;
             color: white;
-            text-align: center;
+            
+            
             }
          
             #block-2{
             display: flex;
             
          }
+         #btnback{
+            margin-top:20px;
+
+
+         }
+
+         #btnback{
+            display: none;
+           position: fixed;
+           top: 20px;
+           right: 30%;
+           z-index: 99; 
+           border: none;
+           outline: none;
+           background-color: #fff;
+           cursor: pointer;
+           padding: 15px 20px;
+           border-radius: 4px;
+           font-size: 18px; 
+           font-weight: 700;
+           border-radius: 50px;
+        }
+       
