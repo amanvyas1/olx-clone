@@ -5,23 +5,49 @@
     margin-top: 100px;
 }
 #adds {
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
     /* border: 1px solid red; */
     border: 1px solid rgb(218, 202, 202);
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
-#adds > div > p:first-child {
-    margin: 0px 0px 0px 220px;
-    cursor: pointer;
-    width: 10px;
-    height: 15px;
-    border: 1px solid rgb(104, 104, 193);
+#adds > div + div {
+    line-height: 20px;
+}
+#adds > div + div > p {
+    font-size: 20px;
+    color: grey;
+}
+#adds > div + div > h3 {
+    font-size: 25px;
+    color: rgb(201, 97, 97);
+}
+#adds > div + div > h2 {
+    color: rgb(177, 141, 76);
 }
 #adds > div > img {
-    width: 80%;
+    width: 85%;
+}
+#cross {
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    margin-left: 170px;
+    margin-top: -23px;
+    border: 1px solid grey;
+    color: grey;
+    cursor: pointer;
+}
+#adds + div {
+    line-height: 10px;
+    margin-bottom: -10px;
+}
+#adds + div > p {
+    color: grey;
 }
 #product_part {
     /* border: 1px solid teal; */
@@ -32,8 +58,30 @@
     width: 30%;
     line-height: 20px;
 }
-hr {
+#sidebar > hr {
     margin-top: 150px;
+}
+#sidebar > div > select {
+    cursor: pointer;
+    height: 40px;
+    width: 90%;
+}
+#sidebar > div > select:hover {
+    background-color: rgb(230, 215, 215);
+}
+#sortBy > div {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    height: 5%;
+}
+#sortBy > div > h3 {
+    margin-top: 0px;
+}
+#sortBy > div > select {
+    width: 15%;
+    height: 100%;
+    cursor: pointer;
 }
 #apartments {
     /* border: 1px solid red; */
@@ -44,8 +92,11 @@ hr {
 }
 #apartments > div > img {
     width: 80%;
+    height: 150px;
     display: block;
     margin: auto;
+    margin-top: 10px;
+    cursor: pointer;
 }
 #apartments > div {
     border: 1px solid rgb(218, 202, 202);
@@ -62,6 +113,9 @@ hr {
     font-size : 13px;
     color: grey;
 }
+#apartments > div > h2,p,p,p {
+    margin-left: 20px;
+}
 #button {
     display: flex;
     justify-content: center;
@@ -76,4 +130,47 @@ hr {
 }
 #button > button:hover {
     border: 3px solid black;
+}
+#footer {
+    margin: auto;
+    /* border: 1px solid red; */
+    margin-top: 200px;
+}
+#first {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: (auto);
+    background-color: #f5f5f5;
+    padding: 0px 10px;
+}
+#first > div {
+    /* border: 1px solid red; */
+    height: 220px;
+}
+#first > div > h3 + p {
+    margin-top: -20px;
+}
+#first > div > h3 ~ p {
+    color: grey;
+    cursor: pointer;
+}
+#icons > img {
+    width: 10%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#app {
+    margin-top: 50px;
+}
+#app > img {
+    width: 40%;
+    cursor: pointer;
+}
+#second {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #002f34;
+    color: white;
 }

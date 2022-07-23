@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -6,6 +7,7 @@
     <title>smartphones</title>
     <link rel="stylesheet" href="./styles/phone.css">
 </head>
+
 <body>
     <!-- navbar section  -->
     <div id="navbar">
@@ -15,69 +17,149 @@
             <div id="adds">
                 <div>
                     <img src="https://rukminim1.flixcart.com/image/832/832/ko0d6kw0/mobile/6/h/y/iphone-12-mjnm3hn-a-apple-original-imag2k2v6ehvnzfd.jpeg?q=70"
-                    alt="iphone-image">
+                        alt="iphone-image">
                 </div>
-                <div id="cross">
-                    <p>X</p>
-                    <h3>APPLE iPhone 12 (Purple, 128 GB)</h3>
+                <div>
+                    <div id="cross">X</div>
+                    <h2>APPLE iPhone 12 (Purple, 128 GB)</h2>
                     <p>12MP + 12MP | 12MP Front Camera</p>
-                    <p>12MP TrueDepth Front Camera with Night Mode,
-                        4K Dolby Vision HDR Recording</p>
+                    <p>12MP TrueDepth Front Camera with Night
+                        Mode, 4K Dolby Vision HDR Recording</p>
                     <p>15.49 cm (6.1 inch) Super Retina XDR Display</p>
                 </div>
             </div>
             <!-- sidebar or filter section  -->
-            <p>Home/Mobiles</p>
-            <h1>Used Mobile Phones in India</h1>
+            <div>
+                <p>Home/Mobiles</p>
+                <h1>Used Mobile Phones in India</h1>
+            </div>
+            <div id="sortby">
+                <div>
+                    <h3>SORT BY :</h3>
+                    <select name="sorted" id="byprice">
+                        <option value="sby">sort by price--</option>
+                        <option value="lth">low to high</option>
+                        <option value="htl">high to low</option>
+                    </select>
+                </div>
+            </div>
+            <hr>
             <div id="product_part">
                 <div id="sidebar">
-                    <h2>CATEGORIES</h2>
-                    <p>Select Categories</p>
-                    <select name="category" id="category">
-                        <option value="select">select category--</option>
-                        <option value="mob">Mobiles</option>
-                        <option value="acc">Accessories</option>
-                        <option value="tab">Tablets</option>
-                    </select>
+                    <div>
+                        <h2>CATEGORIES</h2>
+                        <h3>Select Categories</h3>
+                        <select name="category" id="category">
+                            <option value="select">select category--</option>
+                            <option value="mob">Mobiles</option>
+                            <option value="acc">Accessories</option>
+                            <option value="tab">Tablets</option>
+                        </select>
+                    </div>
                     <hr>
-                    <h2>LOCATIONS</h2>
-                    <p>Select Location</p>
-                    <select name="location" id="loc">
-                        <option value="select">select location--</option>
-                        <option value="ad">Andaman & Nicobar Islands</option>
-                        <option value="mh">Maharastra</option>
-                        <option value="kn">Karnataka</option>
-                        <option value="bg">Banglore</option>
-                        <option value="gj">Gujrat</option>
-                        <option value="dl">Delhi</option>
-                    </select>
+                    <div>
+                        <h2>LOCATIONS</h2>
+                        <h3>Select Location</h3>
+                        <select name="location" id="loc">
+                            <option value="select">select location--</option>
+                            <option value="ad">Andaman & Nicobar Islands</option>
+                            <option value="mh">Maharastra</option>
+                            <option value="kn">Karnataka</option>
+                            <option value="bg">Banglore</option>
+                            <option value="gj">Gujrat</option>
+                            <option value="dl">Delhi</option>
+                        </select>
+                    </div>
                     <hr>
-                    <h2>BRAND</h2>
-                    <p>Select Brand</p>
-                    <select name="brand" id="brand">
-                        <option value="select">select brand--</option>
-                        <option value="vivo">Vivo</option>
-                        <option value="iphone">iPhone</option>
-                        <option value="asus">Asus</option>
-                        <option value="redmi">Redmi</option>
-                        <option value="narzo">Narzo</option>
-                    </select>
+                    <div>
+                        <h2>BRAND</h2>
+                        <h3>Select Brand</h3>
+                        <select name="brand" id="brand">
+                            <option value="select">select brand--</option>
+                            <option value="vivo">Vivo</option>
+                            <option value="iphone">iPhone</option>
+                            <option value="asus">Asus</option>
+                            <option value="redmi">Redmi</option>
+                            <option value="narzo">Narzo</option>
+                        </select>
+                    </div>
                     <hr>
-                    <h2>BUDGET</h2>
-                    <p>Choose Budget</p>
-                    <select name="budget" id="">
-                        <option value="select">select budget--</option>
-                        <option value="ab1">Above 5,000</option>
-                        <option value="ab2">Above 10,000</option>
-                        <option value="ab3">Above 15,000</option>
-                        <option value="ab4">Above 20,000</option>
-                    </select>
+                    <div>
+                        <h2>BUDGET</h2>
+                        <h3>Choose Budget</h3>
+                        <select name="budget" id="">
+                            <option value="select">select budget--</option>
+                            <option value="ab1">Above 5,000</option>
+                            <option value="ab2">Above 10,000</option>
+                            <option value="ab3">Above 15,000</option>
+                            <option value="ab4">Above 20,000</option>
+                        </select>
+                    </div>
                     <hr>
                 </div>
                 <!-- product section or smartphone section  -->
                 <div id="smartphones"></div>
             </div>
-            <div id="button"><button>Load More</button></div>
+            <div id="button">
+                <button>Load More</button>
+            </div>
+        </div>
+    </div>
+    <!-- footer section -->
+    <div id="footer">
+        <div id="first">
+            <div>
+                <h3>POPULAR LOCATIONS</h3>
+                <p>Kolkata</p>
+                <p>Mumbai</p>
+                <p>channai</p>
+                <p>Pune</p>
+            </div>
+            <div>
+                <h3>TRENDING LOCATIONS</h3>
+                <p>Bhubaneshwar</p>
+                <p>Hydrabad</p>
+                <p>Chandigarh</p>
+                <p>Nashik</p>
+            </div>
+            <div>
+                <h3>ABOUT US</h3>
+                <p>About OLX Group</p>
+                <p>Careers</p>
+                <p>Contact Us</p>
+                <p>OLX People</p>
+                <p>Waah Jobs</p>
+            </div>
+            <div>
+                <h3>OLX</h3>
+                <p>Help</p>
+                <p>Sitemap</p>
+                <p>Legal & Privacy Information</p>
+                <p>Blog</p>
+            </div>
+            <div>
+                <h3>FOLLOW US</h3>
+                <div id="icons">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo0jwnntCBc_UAtHHLVQMiktDFgt4Rv_z6VA&usqp=CAU"
+                        alt="facebook-logo">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFWJ9y6Gt9zi2xXrrGaN-ZijHhgO9r020HkA&usqp=CAU"
+                        alt="instagram-logo">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR96DDq5CnTevZHBMqTkjUmy4t0qRhVtpDZig&usqp=CAU"
+                        alt="twitter-logo">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCSPaFQq-Eyoa878pca55a046myfGy9iD2uQ&usqp=CAU"
+                        alt="youtube-logo">
+                </div>
+                <div id="app">
+                    <img src="data:image/png;base64,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"
+                        alt="google-play-store">
+                    <img src="data:image/png;base64,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"
+                        alt="app-store">
+                </div>
+            </div>
+        </div>
+        <div id="second">
+            <div>Other Countries Pakistan - South Africa - Indonesia</div>
+            <div>Free Classifieds in India. © 2006-2022 OLX</div>
         </div>
     </div>
 </body>
@@ -85,222 +167,254 @@
 </html>
 <script>
     products = [
-{img : "https://apollo-singapore.akamaized.net/v1/files/5d2a4b2p05n41-IN/image;s:300x600;q:60",
-price : "9,012",
-name : "Vivo",
-address : "TAPU BASTI, BAMBOOFL",
-state : "Andaman & Nicobar Islands",
-category : "phone"
-},
-{img : "https://apollo-singapore.akamaized.net/v1/files/jvw201pjq23s2-IN/image;s:300x600;q:60",
-price : "25,000",
-name : "iPhones",
-address : "KAMRAJ NAGAR",
-state : "Maharastra",
-category : "phone"
-},
-{img : "https://apollo-singapore.akamaized.net/v1/files/59uj8an5ka4t1-IN/image;s:300x600;q:60",
-price : "28,000",
-name : "ASUS",
-address : "KAMRAJ NAGAR",
-state : "Maharastra",
-category : "phone"
-},
-{img : "https://apollo-singapore.akamaized.net/v1/files/16e0xcg2onv82-IN/image;s:300x600;q:60",
-price : "48,000",
-name : "iPhone",
-address : "JUNGLIGHAR",
-state : "Maharastra",
-category : "phone"
-},
-{img : "https://apollo-singapore.akamaized.net/v1/files/zvs3f33zr2q4-IN/image;s:300x600;q:60",
-price : "80,000",
-name : "iPhone",
-address : "ABERDEEN BAZAR",
-state : "Karnataka",
-category : "phone"
-},
-{img : "https://apollo-singapore.akamaized.net/v1/files/726u57034vvw-IN/image;s:300x600;q:60",
-price : "25,500",
-name : "iPhone",
-address : "AF SCHOOL STAFF",
-state : "Banglore",
-category : "phone"
-},
-{img : "https://apollo-singapore.akamaized.net/v1/files/deb8i2o2p02u2-IN/image;s=300x600;q=60",
-price : "7,500",
-name : "Redmi",
-address : "GARACHARMA",
-state : "Gujrat",
-category : "phone"
-},
-{img : "https://apollo-singapore.akamaized.net/v1/files/dctocm2lbl322-IN/image;s=400x800;q=60",
-price : "3,200",
-name : "Redmi",
-address : "BAKULTALA",
-state : "Andaman & Nicobar Islands",
-category : "phone"
-},
-{img : "https://apollo-singapore.akamaized.net/v1/files/8fwz1e1in1ki3-IN/image;s:300x600;q:60",
-price : "89,999",
-name : "iPhone",
-address : "INA, Delhi",
-state : "Delhi",
-category : "phone"
-},
-{img : "https://apollo-singapore.akamaized.net/v1/files/czlj3493wrii-IN/image;s:300x600;q:60",
-price : "10,999",
-name : "iPhone",
-address : "INDIRA NAGAR",
-state : "Karnataka",
-category : "phone"
-},
-{img : "https://apollo-singapore.akamaized.net/v1/files/1ra5mpb8xqdu1-IN/image;s:300x600;q:60",
-price : "7,00,000",
-name : "Echa hauchi",
-address : "BAKUTALA",
-state : "Andaman & Nicobar Islands",
-category : "tablet"
-},
-{img : "https://apollo-singapore.akamaized.net/v1/files/fczcrc0c67qg-IN/image;s:300x600;q:60",
-price : "20,000",
-name : "iPhone",
-address : "JUNGLIGHAR",
-state : "Banglore",
-category : "phone"
-},
-{img : "https://apollo-singapore.akamaized.net/v1/files/lm0491e5fmcm1-IN/image;s:300x600;q:60",
-price : "10,000",
-name : "Redmi",
-address : "ABERDEEN BAZAR",
-state : "Karnataka",
-category : "phone"
-},
-{img : "https://apollo-singapore.akamaized.net/v1/files/uruhavdny9pk2-IN/image;s:300x600;q:60",
-price : "9,000",
-name : "Accessories",
-address : "BAKULTALA",
-state : "Gujrat",
-category : "Accessories"
-},
-{img : "https://apollo-singapore.akamaized.net/v1/files/0ii7spsxlc7c3-IN/image;s:300x600;q:60",
-price : "20,000",
-name : "iPhone",
-address : "MALACCA",
-state : "Banglore",
-category : "phone"
-},
-{img : "https://apollo-singapore.akamaized.net/v1/files/fqqe54uv5z1a3-IN/image;s:300x600;q:60",
-price : "10,500",
-name : "Vivo",
-address : "G T B Nagar",
-state : "Maharastra",
-category : "phone"
-},
-{img : "https://apollo-singapore.akamaized.net/v1/files/6dc01imesrqo2-IN/image;s=400x800;q=60",
-price : "6,000",
-name : "Vivo",
-address : "PHASE 1, BATALA",
-state : "Delhi",
-category : "phone"
-},
-{img : "https://apollo-singapore.akamaized.net/v1/files/1ho7lg8wblen1-IN/image;s:300x600;q:60",
-price : "15,000",
-name : "Redmi",
-address : "DIVA, THANE",
-state : "Maharastra",
-category : "phone"
-},
-{img : "https://apollo-singapore.akamaized.net/v1/files/u1oa38rlj4wr3-IN/image;s:300x600;q:60",
-price : "6,000",
-name : "Narzo",
-address : "JUNGLIGHAR",
-state : "Andaman & Nicobar Islands",
-category : "phone"
-},
-{img : "https://apollo-singapore.akamaized.net/v1/files/xxy48ybnh6a52-IN/image;s:300x600;q:60",
-price : "6,500",
-name : "Skull candy hesh Anc",
-address : "GOVERNORPETA",
-state : "Banglore",
-category : "accessories"
-},
-{img : "https://apollo-singapore.akamaized.net/v1/files/ox1078uxt8yy2-IN/image;s:300x600;q:60",
-price : "550",
-name : "Mobile Accessories",
-address : "PIRAYIRI, PALAKKAD",
-state : "Maharastra",
-category : "accessories"
-},
-{img : "https://apollo-singapore.akamaized.net/v1/files/r2itjfz51u062-IN/image;s:300x600;q:60",
-price : "10,000",
-name : "Apple Airpods New",
-address : "GOPAL PUR, DELHI",
-state : "Delhi",
-category : "accessories"
-},
-{img : "https://apollo-singapore.akamaized.net/v1/files/hnt8y30vn7be2-IN/image;s:300x600;q:60",
-price : "450",
-name : "All boat model airdopes",
-address : "MUSTAFABAD, DELHI",
-state : "Delhi",
-category : "accessories"
-},
-{img : "https://apollo-singapore.akamaized.net/v1/files/0nw098q6paeg2-IN/image;s:300x600;q:60",
-price : "33,000",
-name : "Apple Watch",
-address : "KADAPA",
-state : "Gujrat",
-category : "accessories"
-},
-{img : "https://apollo-singapore.akamaized.net/v1/files/lmfctjvbscjv-IN/image;s:300x600;q:60",
-price : "28,000",
-name : "Apple 8th Generation",
-address : "VASHI, NAVI MUMBAI",
-state : "Maharastra",
-category : "tablets"
-},
-{img : "https://apollo-singapore.akamaized.net/v1/files/9bm03z8z9lmi1-IN/image;s:300x600;q:60",
-price : "1,15,000",
-name : "iPad Pro",
-address : "BENGALURU",
-state : "Banglore",
-category : "tablets"
-},
-{img : "https://apollo-singapore.akamaized.net/v1/files/8vhthz0biyzb3-IN/image;s:300x600;q:60",
-price : "9,000",
-name : "Huawei Mediapad",
-address : "KENGUNTE",
-state : "Banglore",
-category : "tablets"
-},
-{img : "https://apollo-singapore.akamaized.net/v1/files/5aqtukud7qv43-IN/image;s:300x600;q:60",
-price : "20,000",
-name : "iPad Mini 5",
-address : "JAYANAGAR",
-state : "Maharastra",
-category : "tablets"
-},
-{img : "https://apollo-singapore.akamaized.net/v1/files/2lx58umk9gzh3-IN/image;s:300x600;q:60",
-price : "45,000",
-name : "iPad pro 11 inch",
-address : "MAYANGIMPHAL",
-state : "Maharastra",
-category : "tablets"
-},
-{img : "https://apollo-singapore.akamaized.net/v1/files/qf99t3nvyxwf-IN/image;s:300x600;q:60",
-price : "16,000",
-name : "iPad 2 cellular",
-address : "AFZALPUR TAKKE",
-state : "Karnataka",
-category : "tablets"
-}
-]
-    
-    function displayPhone (products) {
-        document.querySelector("#smartphones").innerHTML="";
-        
-        products.forEach( function (el) {
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/5d2a4b2p05n41-IN/image;s:300x600;q:60",
+            price: 9012,
+            name: "Vivo",
+            address: "TAPU BASTI, BAMBOOFL",
+            state: "Andaman & Nicobar Islands",
+            category: "phone"
+        },
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/jvw201pjq23s2-IN/image;s:300x600;q:60",
+            price: 25000,
+            name: "iPhones",
+            address: "KAMRAJ NAGAR",
+            state: "Maharastra",
+            category: "phone"
+        },
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/59uj8an5ka4t1-IN/image;s:300x600;q:60",
+            price: 28000,
+            name: "ASUS",
+            address: "KAMRAJ NAGAR",
+            state: "Maharastra",
+            category: "phone"
+        },
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/16e0xcg2onv82-IN/image;s:300x600;q:60",
+            price: 48000,
+            name: "iPhone",
+            address: "JUNGLIGHAR",
+            state: "Maharastra",
+            category: "phone"
+        },
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/zvs3f33zr2q4-IN/image;s:300x600;q:60",
+            price: 80000,
+            name: "iPhone",
+            address: "ABERDEEN BAZAR",
+            state: "Karnataka",
+            category: "phone"
+        },
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/726u57034vvw-IN/image;s:300x600;q:60",
+            price: 25500,
+            name: "iPhone",
+            address: "AF SCHOOL STAFF",
+            state: "Banglore",
+            category: "phone"
+        },
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/deb8i2o2p02u2-IN/image;s=300x600;q=60",
+            price: 7500,
+            name: "Redmi",
+            address: "GARACHARMA",
+            state: "Gujrat",
+            category: "phone"
+        },
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/dctocm2lbl322-IN/image;s=400x800;q=60",
+            price: 3200,
+            name: "Redmi",
+            address: "BAKULTALA",
+            state: "Andaman & Nicobar Islands",
+            category: "phone"
+        },
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/8fwz1e1in1ki3-IN/image;s:300x600;q:60",
+            price: 89999,
+            name: "iPhone",
+            address: "INA, Delhi",
+            state: "Delhi",
+            category: "phone"
+        },
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/czlj3493wrii-IN/image;s:300x600;q:60",
+            price: 10999,
+            name: "iPhone",
+            address: "INDIRA NAGAR",
+            state: "Karnataka",
+            category: "phone"
+        },
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/1ra5mpb8xqdu1-IN/image;s:300x600;q:60",
+            price: 700000,
+            name: "Echa hauchi",
+            address: "BAKUTALA",
+            state: "Andaman & Nicobar Islands",
+            category: "tablet"
+        },
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/fczcrc0c67qg-IN/image;s:300x600;q:60",
+            price: 20000,
+            name: "iPhone",
+            address: "JUNGLIGHAR",
+            state: "Banglore",
+            category: "phone"
+        },
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/lm0491e5fmcm1-IN/image;s:300x600;q:60",
+            price: 10000,
+            name: "Redmi",
+            address: "ABERDEEN BAZAR",
+            state: "Karnataka",
+            category: "phone"
+        },
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/uruhavdny9pk2-IN/image;s:300x600;q:60",
+            price: 9000,
+            name: "Accessories",
+            address: "BAKULTALA",
+            state: "Gujrat",
+            category: "Accessories"
+        },
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/0ii7spsxlc7c3-IN/image;s:300x600;q:60",
+            price: 20000,
+            name: "iPhone",
+            address: "MALACCA",
+            state: "Banglore",
+            category: "phone"
+        },
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/fqqe54uv5z1a3-IN/image;s:300x600;q:60",
+            price: 10500,
+            name: "Vivo",
+            address: "G T B Nagar",
+            state: "Maharastra",
+            category: "phone"
+        },
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/6dc01imesrqo2-IN/image;s=400x800;q=60",
+            price: 6000,
+            name: "Vivo",
+            address: "PHASE 1, BATALA",
+            state: "Delhi",
+            category: "phone"
+        },
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/1ho7lg8wblen1-IN/image;s:300x600;q:60",
+            price: 15000,
+            name: "Redmi",
+            address: "DIVA, THANE",
+            state: "Maharastra",
+            category: "phone"
+        },
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/u1oa38rlj4wr3-IN/image;s:300x600;q:60",
+            price: 6000,
+            name: "Narzo",
+            address: "JUNGLIGHAR",
+            state: "Andaman & Nicobar Islands",
+            category: "phone"
+        },
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/xxy48ybnh6a52-IN/image;s:300x600;q:60",
+            price: 6500,
+            name: "Skull candy hesh Anc",
+            address: "GOVERNORPETA",
+            state: "Banglore",
+            category: "accessories"
+        },
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/ox1078uxt8yy2-IN/image;s:300x600;q:60",
+            price: 550,
+            name: "Mobile Accessories",
+            address: "PIRAYIRI, PALAKKAD",
+            state: "Maharastra",
+            category: "accessories"
+        },
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/r2itjfz51u062-IN/image;s:300x600;q:60",
+            price: 10000,
+            name: "Apple Airpods New",
+            address: "GOPAL PUR, DELHI",
+            state: "Delhi",
+            category: "accessories"
+        },
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/hnt8y30vn7be2-IN/image;s:300x600;q:60",
+            price: 450,
+            name: "All boat model airdopes",
+            address: "MUSTAFABAD, DELHI",
+            state: "Delhi",
+            category: "accessories"
+        },
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/0nw098q6paeg2-IN/image;s:300x600;q:60",
+            price: 33000,
+            name: "Apple Watch",
+            address: "KADAPA",
+            state: "Gujrat",
+            category: "accessories"
+        },
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/lmfctjvbscjv-IN/image;s:300x600;q:60",
+            price: 28000,
+            name: "Apple 8th Generation",
+            address: "VASHI, NAVI MUMBAI",
+            state: "Maharastra",
+            category: "tablets"
+        },
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/9bm03z8z9lmi1-IN/image;s:300x600;q:60",
+            price: 115000,
+            name: "iPad Pro",
+            address: "BENGALURU",
+            state: "Banglore",
+            category: "tablets"
+        },
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/8vhthz0biyzb3-IN/image;s:300x600;q:60",
+            price: 9000,
+            name: "Huawei Mediapad",
+            address: "KENGUNTE",
+            state: "Banglore",
+            category: "tablets"
+        },
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/5aqtukud7qv43-IN/image;s:300x600;q:60",
+            price: 20000,
+            name: "iPad Mini 5",
+            address: "JAYANAGAR",
+            state: "Maharastra",
+            category: "tablets"
+        },
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/2lx58umk9gzh3-IN/image;s:300x600;q:60",
+            price: 45000,
+            name: "iPad pro 11 inch",
+            address: "MAYANGIMPHAL",
+            state: "Maharastra",
+            category: "tablets"
+        },
+        {
+            img: "https://apollo-singapore.akamaized.net/v1/files/qf99t3nvyxwf-IN/image;s:300x600;q:60",
+            price: 16000,
+            name: "iPad 2 cellular",
+            address: "AFZALPUR TAKKE",
+            state: "Karnataka",
+            category: "tablets"
+        }
+    ]
+
+    let storeData = JSON.parse(localStorage.getItem("item")) || [];
+
+    function displayPhone(products) {
+        document.querySelector("#smartphones").innerHTML = "";
+
+        products.forEach(function (el) {
             let box = document.createElement("div");
 
             let image = document.createElement("img");
@@ -315,7 +429,12 @@ category : "tablets"
             let address = document.createElement("p");
             address.innerText = el.address;
 
-            box.append(image,price,brand,address);
+            box.append(image, price, brand, address);
+
+            box.addEventListener("click", function () {
+                storeData.push(el);
+                localStorage.setItem("item", JSON.stringify(storeData));
+            });
             document.querySelector("#smartphones").append(box);
         })
     }
@@ -324,112 +443,141 @@ category : "tablets"
     // filter section
     let filter1 = document.querySelector("#category");
     filter1.addEventListener("change", function () {
-        
-        if(filter1.value === "select"){
+
+        if (filter1.value === "select") {
             displayPhone(products);
             console.log('select');
         }
-        else if(filter1.value === "mob"){
+        else if (filter1.value === "mob") {
             let filtered1 = products.filter(function (el) {
                 return el.category === "phone";
             })
             displayPhone(filtered1);
         }
-        else if(filter1.value === "acc"){
-            let filtered2 = products.filter(function(el) {
+        else if (filter1.value === "acc") {
+            let filtered2 = products.filter(function (el) {
                 return el.category === "accessories"
             })
             displayPhone(filtered2);
         }
-        else if(filter1.value === "tab"){
-            let filtered3 = products.filter(function(el){
+        else if (filter1.value === "tab") {
+            let filtered3 = products.filter(function (el) {
                 return el.category === "tablets";
             })
             displayPhone(filtered3);
         }
     })
-    
-    let filter2 = document.querySelector("#loc");
-    filter2.addEventListener("change", function() {
 
-        if(filter2.value === "select"){
+    let filter2 = document.querySelector("#loc");
+    filter2.addEventListener("change", function () {
+
+        if (filter2.value === "select") {
             displayPhone(products);
         }
-        else if(filter2.value === "ad"){
+        else if (filter2.value === "ad") {
             let loc1 = products.filter(function (el) {
                 return el.state === "Andaman & Nicobar Islands";
             })
             displayPhone(loc1);
         }
-        else if(filter2.value === "mh") {
+        else if (filter2.value === "mh") {
             let loc2 = products.filter(function (el) {
                 return el.state === "Maharastra";
             })
             displayPhone(loc2);
         }
-        else if(filter2.value === "kn"){
+        else if (filter2.value === "kn") {
             let loc3 = products.filter(function (el) {
                 return el.state === "Karnataka";
             })
             displayPhone(loc3);
         }
-        else if(filter2.value === "bg"){
-            let loc4 = products.filter(function(el) {
+        else if (filter2.value === "bg") {
+            let loc4 = products.filter(function (el) {
                 return el.state === "Banglore";
             })
             displayPhone(loc4);
         }
-        else if(filter2.value === "gj"){
-            let loc5 = products.filter(function(el) {
+        else if (filter2.value === "gj") {
+            let loc5 = products.filter(function (el) {
                 return el.state === "Gujrat";
             })
             displayPhone(loc5);
         }
-        else if(filter2.value === "dl"){
-            let loc6 = products.filter(function(el){
+        else if (filter2.value === "dl") {
+            let loc6 = products.filter(function (el) {
                 return el.state === "Delhi";
             })
             displayPhone(loc6);
         }
     })
- 
+
     let filter3 = document.querySelector("#brand");
-    filter3.addEventListener("change", function() {
-        
-        if(filter3.value === "select"){
+    filter3.addEventListener("change", function () {
+
+        if (filter3.value === "select") {
             displayPhone(products);
         }
-        else if(filter3.value === "vivo"){
-            let brand1 = products.filter(function(el){
+        else if (filter3.value === "vivo") {
+            let brand1 = products.filter(function (el) {
                 return el.name === "Vivo";
             })
             displayPhone(brand1);
             // console.log("brand1");
         }
-        else if(filter3.value === "iphone"){
+        else if (filter3.value === "iphone") {
             let brand2 = products.filter(function (el) {
                 return el.name === "iPhone";
             })
             displayPhone(brand2);
         }
-        else if(filter3.value === "asus"){
-            let brand3 = products.filter(function (el){
+        else if (filter3.value === "asus") {
+            let brand3 = products.filter(function (el) {
                 return el.name === "ASUS";
             })
             displayPhone(brand3);
         }
-        else if(filter3.value === "redmi"){
-            let brand4 = products.filter(function(el){
+        else if (filter3.value === "redmi") {
+            let brand4 = products.filter(function (el) {
                 return el.name === "Redmi";
             })
             displayPhone(brand4);
         }
-        else if(filter3.value === "narzo"){
-            let brand5 = products.filter(function (el){
+        else if (filter3.value === "narzo") {
+            let brand5 = products.filter(function (el) {
                 return el.name === "Narzo";
             })
             displayPhone(brand5);
         }
     })
 
+    let sort1 = document.querySelector("#byprice");
+    sort1.addEventListener("change", function () {
+        // console.log("sort the array");
+
+        if (sort1.value === "sby") {
+            displayPhone(products);
+            // console.log('sby');
+        }
+        if (sort1.value === "lth") {
+            let low = products.sort(function (a, b) {
+                if (a.price > b.price) return 1;
+                if (a.price < b.price) return -1;
+                else return 0;
+            })
+            // console.log('low');
+            displayPhone(products);
+        }
+        if (sort1.value === "htl") {
+            let high = products.sort(function (a, b) {
+                if (a.price > b.price) return -1;
+                if (a.price < b.price) return 1;
+                else return 0;
+            })
+            displayPhone(products);
+        }
+        else {
+            displayPhone(products);
+        }
+    })
 </script>

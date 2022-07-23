@@ -9,20 +9,41 @@
     justify-content: center;
     align-items: center;
     margin: auto;
+    width: 80%;
     /* border: 1px solid red; */
     border: 1px solid rgb(218, 202, 202);
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
-#cross > p:first-child {
-    cursor: pointer;
-    margin-left: 350px;
-    margin-top: -170px;
-    width: 10px;
-    height: 20px;
-    border: 1px solid rgb(104, 104, 193);
+#adds > div + div > h2{
+    color: rgb(63, 63, 148);
+}
+#adds > div + div > p {
+    line-height: 50px;
+    font-size: 20px;
+    color: grey;
 }
 #adds > div > img {
-    width: 50%;
+    width: 60%;
+}
+#adds + div {
+    line-height: 10px;
+    margin-bottom: -10px;
+}
+#adds + div > p {
+    margin: 0px;
+    color: grey;
+}
+#cross {
+    font-size: 20px;
+    color: grey;
+    margin: -23px 0px 0px 380px;
+    border: 1px solid grey;
+    width: 15px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 #product_part {
     /* border: 1px solid teal; */
@@ -34,14 +55,40 @@
     line-height: 30px;
     /* scroll-behavior: auto; */
 }
+#sortby > div {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    /* border: 1px solid red; */
+    height: 5%;
+}
+#sortby > div > h3 {
+    margin-top: 0px;
+}
+#sortby > div > select {
+    width: 15%;
+    height: 100%;
+    cursor: pointer;
+}
 #sidebar > h2 + p {
     font-size: 20px;
 }
 #sidebar > select:nth-child(1) {
     scroll-behavior: smooth;
 }
-hr {
-    margin-top: 150px;
+#sidebar > hr {
+    margin-top: 10px;
+}
+#sidebar > div {
+    height: 280px;
+    border: 1px solid rgb(55, 71, 133);
+    border-radius: 5px;
+}
+#sidebar > div > select {
+    cursor: pointer;
+    height: 40px;
+    width: 90%;
+    font-size: 15px;
 }
 #smartphones {
     /* border: 1px solid red; */
@@ -52,15 +99,20 @@ hr {
 }
 #smartphones > div > img {
     width: 70%;
+    height: 170px;
     display: block;
     margin: auto;
+    margin-top: 10px;
+    cursor: pointer;
 }
 #smartphones > div > h2,p,p {
     display: flex;
     margin: auto;
+    margin-left: 20px;
 }
 #smartphones > div {
     border: 1px solid rgb(218, 202, 202);
+    border-radius: 4px;
     line-height: 30px;
 }
 #smartphones > div > h2 + p {
@@ -86,4 +138,44 @@ hr {
 }
 #button > button:hover {
     border: 3px solid black;
+}
+#footer {
+    margin: auto;
+    /* border: 1px solid red; */
+    margin-top: 200px;
+}
+#first {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: (auto);
+    background-color: #f5f5f5;
+    padding: 0px 10px;
+}
+#first > div {
+    /* border: 1px solid red; */
+    height: 220px;
+}
+#first > div > h3 + p {
+    margin-top: -20px;
+}
+#first > div > h3 ~ p {
+    color: grey;
+}
+#icons > img {
+    width: 10%;
+    margin-right: 10px;
+}
+#app {
+    margin-top: 50px;
+}
+#app > img {
+    width: 40%;
+}
+#second {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #002f34;
+    color: white;
 }
