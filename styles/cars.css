@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-family:'Roboto', sans-serif;
 }
 
@@ -10,6 +10,7 @@
     margin: auto;
     display: flex;
     /* border: 1px solid black; */
+    box-sizing: border-box;
 
 }
 
@@ -17,12 +18,14 @@
     width: 30%;
     padding: 0 15px;
     /* border: 1px solid black; */
+    box-sizing: border-box;
 }
 
 #products-container{
     width: 70%;
     margin-top: 30px;
     /* border: 1px solid black; */
+    box-sizing: border-box;
 }
 ul{
     list-style: none
@@ -64,6 +67,7 @@ ul{
     line-height: 22px;
 }
 .items{
+    box-sizing: border-box;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
@@ -180,7 +184,7 @@ a{
 #btnback{
     display: none;
     position: fixed;
-    bottom: 20px;
+    top: 20px;
     right: 45%;
     z-index: 99; 
     border: none;
@@ -192,7 +196,21 @@ a{
     font-size: 18px; 
     font-weight: 700;
     border-radius: 50px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
 }
-#btnback>i{
-    margin: 10px;
+
+
+
+
+@media all and (min-width: 480px) and (max-width: 720px){
+    #products{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media all and (max-width: 479px) {
+    #products{
+        grid-template-columns: repeat(1,1fr);
+    }
 }

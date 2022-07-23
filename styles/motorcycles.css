@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-family:'Roboto', sans-serif;
 }
 
@@ -17,6 +17,7 @@
     width: 30%;
     padding: 0 15px;
     /* border: 1px solid black; */
+    box-sizing: border-box;
 }
 
 #products-container{
@@ -152,7 +153,7 @@ a{
 #btnback{
     display: none;
     position: fixed;
-    bottom: 20px;
+    top: 20px;
     right: 45%;
     z-index: 99; 
     border: none;
@@ -164,7 +165,46 @@ a{
     font-size: 18px; 
     font-weight: 700;
     border-radius: 50px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-#btnback>i{
-    margin: 10px;
+
+#footer1{
+    display: flex;
+    background-color:#EBEEEF;
+}
+
+#sections{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    line-height: 20px;
+    
+}
+
+#footer2{
+    background-color: rgb(0,47,52);
+    padding: 16px;
+}
+
+#footer2>div{
+    color: white;
+    display: flex;
+    font-size: 12px;
+    line-height: 18px;
+    justify-content: space-between;
+}
+
+
+@media all and (min-width: 480px) and (max-width: 720px){
+    #products{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media all and (max-width: 479px) {
+    #products{
+        grid-template-columns: repeat(1,1fr);
+    }
 }

@@ -284,3 +284,120 @@ btn2.addEventListener("click", backTop);
              behavior: "smooth",
        });
  }
+
+
+ let location = document.querySelectorAll("#location>p")
+for(let i=0; i<location.length; i++){
+    location[i].addEventListener("click",(event)=>{
+        locationFilter(event.target.innerText)
+    })
+}
+
+let locationFilter= (val)=>{
+    let filterd = bikeData.filter((el)=>{
+        return el.city == val
+    })
+    append(filterd)
+    let lc = document.querySelector("#lc")
+    lc.innerText = `Used Bikes in ${val}`
+}
+
+let brand = document.querySelectorAll("#brand>p")
+for(let i=0; i<brand.length; i++){
+    brand[i].addEventListener("click",(event)=>{
+        brandFilter(event.target.innerText)
+    })
+}
+
+let brandFilter= (val)=>{
+    let filB = bikeData.filter((el)=>{
+        return el.brand == val
+    })
+    append(filB)
+    let lc = document.querySelector("#lc")
+    lc.innerText = `Used Bikes in India`
+}
+
+
+let budget = document.querySelectorAll("#budget>p")
+for(let i=0; i<budget.length; i++){
+    budget[i].addEventListener("click",(event)=>{
+        budgetFilter(event.target.innerText)
+    })
+}
+
+let budgetFilter = (val)=>{
+    let lc = document.querySelector("#lc")
+    lc.innerText = `Used Bikes in India`
+    if(val == "Below 30000 Rs"){
+        let filbudget = bikeData.filter((el)=>{
+            return el.price < 30000;
+        }) 
+        append(filbudget)
+    }else if(val == "30000 - 45000 Rs"){
+        let filbudget = bikeData.filter((el)=>{
+            return el.price > 30000 && el.price <= 45000;
+        }) 
+        append(filbudget)
+    }else if(val == "45000 - 60000 Rs"){
+        let filbudget = bikeData.filter((el)=>{
+            return el.price > 45000 && el.price <= 60000;
+        }) 
+        append(filbudget)
+    }else if(val == "60000 - 75000 Rs"){
+        let filbudget = bikeData.filter((el)=>{
+            return el.price > 60000 && el.price <= 75000;
+        }) 
+        append(filbudget)
+    }else if(val == "75000 - 90000 Rs"){
+        let filbudget = bikeData.filter((el)=>{
+            return el.price > 75000 && el.price <= 90000;
+        }) 
+        append(filbudget)
+    }else{
+        let filbudget = bikeData.filter((el)=>{
+            return el.price > 90000;
+        }) 
+        append(filbudget)
+    }
+}
+
+
+let kilometer = document.querySelectorAll("#kilometer>p")
+for(let i=0; i<kilometer.length; i++){
+    kilometer[i].addEventListener("click",(event)=>{
+        kilometerFilter(event.target.innerText)
+    })
+}
+
+
+let kilometerFilter = (val)=>{
+    let lc = document.querySelector("#lc")
+    lc.innerText = `Used Bikes in India`
+    if(val == "Below 10000km"){
+        let filbudget = bikeData.filter((el)=>{
+            return el.km < 10000;
+        }) 
+        append(filbudget)
+    }else if(val == "10000 - 20000km"){
+        let filbudget = bikeData.filter((el)=>{
+            return el.km > 10000 && el.km <= 20000;
+        }) 
+        append(filbudget)
+    }else if(val == "20000 - 30000km"){
+        let filbudget = bikeData.filter((el)=>{
+            return el.km > 20000 && el.km <= 30000;
+        }) 
+        append(filbudget)
+    }else if(val == "30000 - 40000km"){
+        let filbudget = bikeData.filter((el)=>{
+            return el.km > 30000 && el.km <= 40000;
+        }) 
+        append(filbudget)
+    }else{
+        let filbudget = bikeData.filter((el)=>{
+            return el.km > 40000;
+        }) 
+        append(filbudget)
+    }
+}
