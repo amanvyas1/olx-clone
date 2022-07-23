@@ -1,0 +1,78 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Add Data</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        button {
+            font-size: 35px;
+            width: 32%;
+            margin: auto;
+            border-radius: 11px;
+            background: blue;
+            margin-top: -1px;
+            color: white;
+        }
+
+        #post-data {
+            display: grid;
+            height: 100vh;
+            width: 100%;
+            background: rgb(162, 1, 255)
+        }
+
+        input {
+            width: 32%;
+            height: 51px;
+            padding: 12px;
+            margin: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="post-data">
+        <input type="text" id="img1" placeholder="Enter Image URL">
+        <input type="text" id="name" placeholder="Enter Title">
+        <input type="text" id="address" placeholder="Enter Your Address">
+        <input type="text" id="State" placeholder="Enter State">
+        <input type="text" id="price" placeholder="Enter Price">
+        <button onclick="addata()">Submit</button>
+    </div>
+
+</body>
+<script>
+    let data_array = JSON.parse(localStorage.getItem("products")) || [];
+    let addata = () =>{
+
+        function obj(i,n,a,s,p){
+            this.img1=i;
+            this.name=n;
+            this.address=a;
+            this.State =s;
+            this.price=p;
+        }
+        let img1 = document.getElementById("img1").value;
+        let name = document.getElementById("name").value;
+        let address = document.getElementById("address").value;
+        let State = document.getElementById("State").value;
+        let price = document.getElementById("price").value;
+
+        let post_data = new obj(img1,name,address,State,price);
+
+       data_array.push(post_data);
+       swal("Ad Posted Successfully", "", "success").then(function(){
+        location.href="index.html";
+       });
+
+
+
+    }
+</script>
+
+</html>

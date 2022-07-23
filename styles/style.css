@@ -264,3 +264,42 @@ ul{
     color: white;
     background: blue;
 }
+button{
+    cursor: pointer;
+}
+
+/* sell css */
+#container-sell {
+    width: 60%;
+    display: grid;
+    height:auto;
+    border: 1px solid;
+    place-content: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: left;
+}
+#container-sell>div>a {
+    padding: 12px;
+    border: 1px solid;
+    font-size: 30px;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+}
+h5{
+    font-size: 20px;
+    margin: 20px;
+}
+
+#sell{
+    background: rgb(189, 130, 238);
+    color: white;
+}

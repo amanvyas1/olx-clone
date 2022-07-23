@@ -156,3 +156,27 @@ document.querySelector("#btn-login").addEventListener("click", function () {
 
     });
 })
+// sell button
+document.querySelector("#sell").addEventListener("click",function(){
+    if(data2["status"]==true){
+        window.location.href="sell.html";
+    }
+    else{
+        swal("You are not logged in ", "", "error").then(function () {
+            window.location.reload();
+
+
+        });
+
+    }
+})
+document.querySelector("#home").style.cursor="pointer";
+document.querySelector("#home").addEventListener("click",function(){
+    
+ 
+window.location.href="index.html";
+
+
+      
+    
+})
