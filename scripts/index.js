@@ -10,7 +10,7 @@ let products = [
     price: "4,45,000",
     address: "GKNM Hospital, Coimbatore",
     State: "Tamilnadu",
-    Description:
+    description:
       "Color Grey Engine Capacity/Displacement (in Cc)1000 Insurance Type Comprehensive Make Month May Registration Place TN",
   },
   {
@@ -24,7 +24,7 @@ let products = [
     price: "49,000",
     address: "Samudrapur,Nagpur",
     State: "Maharashtra",
-    Description:
+    description:
       "15.49 cm (6.1 inch) Super Retina XDR Display 12MP + 12MP + 12MP | 12MP Front Camera A15 Bionic Chip Processor",
   },
   {
@@ -38,7 +38,7 @@ let products = [
     price: "3,35,000",
     address: "Karkarduma, Delhi",
     State: "Delhi",
-    Description:
+    description:
       "KUV100 K6 PLUS, DIESEL 1ST OWNER, INSURED - MAY 2023 BOTH KEYS ADDITIONAL VEHICLE INFORMATION- Accidental- No Adjustable Steering- Yes Air Conditioning- With Heater Bluetooth- Yes Color- White Insurance Type: Third Party",
   },
   {
@@ -52,7 +52,7 @@ let products = [
     price: "60,000",
     address: "Karkarduma, Delhi",
     State: "Delhi",
-    Description:
+    description:
       "125CC DIRT BIKE , FOR OFF ROAD USE , NO REGISTRATION REQUIRED , MANUAL TRANSMISSION , AVAILABLE IN DIFFERENT COLOURS .",
   },
   {
@@ -66,7 +66,7 @@ let products = [
     price: "3,15,000",
     address: "THE BIKE FACTORY SHOP NUMBER 38 39  MIRA RD EAST THANE 401107",
     State: "Maharashtra",
-    Description:
+    description:
       "ROYAL ENFIELD CONTINENTAL GT 650 JUST LIKE NEW BRAND NEW CONDITION ONLY 8 MONTHS OLD 3000km 1st owner 2KEYS",
   },
   {
@@ -80,7 +80,7 @@ let products = [
     price: "55,000",
     address: "Shree Gajanan Maharaj Nagar, Ulhasnagar, Maharashtra",
     State: "Maharashtra",
-    Description:
+    description:
       "Selling my brand new xiomi 12 pro 12 GB ram 256 GB memory 50 megapixel triple camera 8k recording Only use 1 month & 10 day's Condition- very good All box accessories available",
   },
   {
@@ -94,7 +94,7 @@ let products = [
     price: "12,999",
     address: "Ansari Nagar, Madurai, Tamil Nadu",
     State: "Tamil Nadu",
-    Description: "Oppo F-19s,Used for 6 months, 1year inssurance available",
+    description: "Oppo F-19s,Used for 6 months, 1year inssurance available",
   },
   {
     name: "Hero Mastro",
@@ -107,7 +107,7 @@ let products = [
     price: "28,000",
     address: "Saat Rasta Road, Elephanta Caves, Maharashtra",
     State: "Maharashtra",
-    Description:
+    description:
       "Hero Maestro 2012 Done 23000 Kms in Awesome Condition in Original Paint Single Owner Meter not working ready to use all papers clear Genuine buyers contact no chitchat for more information call",
   },
   {
@@ -121,7 +121,7 @@ let products = [
     price: "64,000",
     address: "Nellikkunnu, Kasaragod, Kerala",
     State: "Kerla",
-    Description:
+    description:
       "MAHINDRA BEST CHOICE Band road kasaragod *loan facility yes *We give one year Engine warranty *4 free service *63 points checked by First choice *Insurance : 2024",
   },
   {
@@ -135,7 +135,7 @@ let products = [
     price: "17,75,000",
     address: "Bhikaji Cama Place, Delhi",
     State: "Delhi",
-    Description:
+    description:
       "Color: Silver Insurance Type: No Insurance Make Month: August Registration Place: DL",
   },
   {
@@ -149,7 +149,7 @@ let products = [
     price: "43,00,000",
     address: "Kannur, Payyannur",
     State: "Kerla",
-    Description:
+    description:
       "Color: Red Engine Capacity/Displacement (in Cc): 1995 Insurance Type: Comprehensive Make Month: September Registration Place: KL",
   },
   {
@@ -163,7 +163,7 @@ let products = [
     price: "19,000",
     address: "Bhai Randhir Singh Nagar,Ludhiana",
     State: "Punjab",
-    Description:
+    description:
       "Black color. Immaculate condition. 6/64 box charger cable 100% clean. 100% laminated",
   },
   {
@@ -177,7 +177,7 @@ let products = [
     price: "30,000",
     address: "Samudrapur MIDC, Maharashtra, India",
     State: "Maharashtra",
-    Description:
+    description:
       "15.49 cm (6.1 inch) Super Retina XDR Display 12MP + 12MP | 12MP Front Camera A14 Bionic Chip with Next Generation Neural Engine Processor Ceramic Shield Industry-leading IP68 Water Resistance All Screen OLED Display 12MP TrueDepth Front Camera with Night Mode, 4K Dolby Vision HDR Recording",
   },
   {
@@ -191,7 +191,7 @@ let products = [
     price: "1700",
     address: "Samudrapur MIDC, Maharashtra, India",
     State: "Maharashtra",
-    Description: "Realme buds with high sound quality",
+    description: "Realme buds with high sound quality",
   },
   {
     name: "Toyota Land Cruiser",
@@ -204,7 +204,7 @@ let products = [
     price: "1,35,00,000",
     address: "MG Road, Gurgaon",
     State: "Haryana",
-    Description:
+    description:
       "Insurance Type: Comprehensive Registration Place: HR Exchange: Yes Finance: Yes",
   },
   {
@@ -218,7 +218,7 @@ let products = [
     price: "43,00,000",
     address: "MG Road, Gurgaon",
     State: "Haryana",
-    Description:
+    description:
       "*LAND LOVER DISCOVERY SPORT HSE* *SEVEN SEATER**2018* REGISTRATION*2017* MANUFACTURING*WHITE* WITH *BEIGE* INTERIOR ONLY *44000KM* WITH SERVICE RECORD*HR* NUMBER*FIRST* OWNER",
   },
   {
@@ -232,7 +232,7 @@ let products = [
     price: "299",
     address: "Samudrapur, Maharashtra, India",
     State: "Maharashtra",
-    Description:
+    description:
       "Quick Shel Hand Gripper For Best Hand Exerciser Grip Adjustable 10kg to 40kg Hand Grip/Fitness Grip",
   },
   {
@@ -246,7 +246,7 @@ let products = [
     price: "26,00,011",
     address: "Rajendra Park,Gurgaon",
     State: "Haryana",
-    Description:
+    description:
       "2BHK Flat in Rajendra Park with Ground Floor Car Parking with Pakki Registry and Home Loan with Subsidy Scheme, it's Low Budget Housing under Housing for all Scheme",
   },
   {
@@ -260,7 +260,7 @@ let products = [
     price: "999",
     address: "Samudrapur, Maharashtra, India",
     State: "Maharashtra",
-    Description: "Trendy analogous watches",
+    description: "Trendy analogous watches",
   },
   {
     name: "Maruti Suzuki Swift Dzire ",
@@ -273,7 +273,7 @@ let products = [
     price: " 7,60,000",
     address: "Tirumala Colony, Hyderabad",
     State: "Telangana",
-    Description:
+    description:
       "Color: Silver Insurance Type: Zero Dep Make Month: February Registration Place: TS",
   },
   {
@@ -287,7 +287,7 @@ let products = [
     price: " 18,999",
     address: "Samudrapur, Maharashtra, India",
     State: "Maharashtra",
-    Description:
+    description:
       "15.49 cm (6.1 inch) Liquid Retina HD Display 12MP + 12MP | 12MP Front Camera A13 Bionic Chip Processor COD Availavble* Hurry up limited stock available* Brand 6 months warranty",
   },
   {
@@ -301,7 +301,7 @@ let products = [
     price: " 5,40,000",
     address: "New Moti Nagar, Delhi",
     State: "Delhi",
-    Description:
+    description:
       "MARUTI SUZUKI SUPER CARRY*CNG*CLOSED BODY*DELHI REG.*PETROL AND CNG HYBRID",
   },
   {
@@ -315,7 +315,7 @@ let products = [
     price: "6,90,000",
     address: "Kidangoor, Angamaly, Kerala",
     State: "Kerla",
-    Description: "Eicher 1110 2012 model 5 new tyrs New test New isurance",
+    description: "Eicher 1110 2012 model 5 new tyrs New test New isurance",
   },
   {
     name: "Mahindra Thar",
@@ -328,7 +328,7 @@ let products = [
     price: "4,15,000",
     address: "Nagali Village",
     State: "Himachal Pradesh",
-    Description:
+    description:
       "All India transport dilAvri power Stearing power break power clutch All documents kamplit",
   },
   {
@@ -342,7 +342,7 @@ let products = [
     price: "74,999",
     address: "Nanded, Nanded, Maharashtra",
     State: "Maharashtra",
-    Description:
+    description:
       "125CC FOUR STROKE ENGINE,SEMI AUTOMATIC TRANSMISSION(F-N-R),AVAILABLE IN DIFFERENT COLOURS.",
   },
   {
@@ -356,7 +356,7 @@ let products = [
     price: "1,30,000",
     address: "Param Jeet Ganj, Kapurthala, Punjab",
     State: "Punjab",
-    Description: "Brand: Suzuki,Model:Gixxer,Year:2019, KM driven: 2,000 km",
+    description: "Brand: Suzuki,Model:Gixxer,Year:2019, KM driven: 2,000 km",
   },
 ];
 localStorage.setItem('products',JSON.stringify(products));
@@ -375,7 +375,7 @@ let motorcycle = [
     price: "55,900",
     address: "SANKAR MOTORS, Madurai",
     State: "Tamil Nadu",
-    Description: "Brand :Yamaha,Model:FZS,Year:2015,KM driven:22,327 km",
+    description: "Brand :Yamaha,Model:FZS,Year:2015,KM driven:22,327 km",
   },
   {
     name: "125CC NEO ATV",
@@ -388,7 +388,7 @@ let motorcycle = [
     price: "74,999",
     address: "Nanded, Nanded, Maharashtra",
     State: "Maharashtra",
-    Description:
+    description:
       "125CC FOUR STROKE ENGINE,SEMI AUTOMATIC TRANSMISSION(F-N-R),AVAILABLE IN DIFFERENT COLOURS.",
   },
   {
@@ -402,7 +402,7 @@ let motorcycle = [
     price: "2,35,000",
     address: "Mira Road, Mumbai, Maharashtra",
     State: "Maharashtra",
-    Description:
+    description:
       "Scratchless Condition,Custom HID Projectors with DRLs ,Aftermarket Handle Grips ,Yoshimura Japanese Exhaust,Completely Serviced,Bike is in Clean Condition and Shape",
   },
   {
@@ -416,7 +416,7 @@ let motorcycle = [
     price: "1,35,000",
     address: "Sector 15, Panchkula, Haryana",
     State: "Haryana",
-    Description: "Brand:Bajaj,Model:RS200, KM Driven:5000km, Year:2019",
+    description: "Brand:Bajaj,Model:RS200, KM Driven:5000km, Year:2019",
   },
   {
     name: "Apache RTR 200",
@@ -429,7 +429,7 @@ let motorcycle = [
     price: "1,45,000",
     address: "Jal vayu Vihar, Noida, Uttar Pradesh",
     State: "Uttar Pradesh",
-    Description: "Brand:TVS,Model:Apache RTR, KM Driven:9,200 km, Year:2022",
+    description: "Brand:TVS,Model:Apache RTR, KM Driven:9,200 km, Year:2022",
   },
   {
     name: "SUZUKI GIXXER SF",
@@ -442,7 +442,7 @@ let motorcycle = [
     price: "1,30,000",
     address: "Param Jeet Ganj, Kapurthala, Punjab",
     State: "Punjab",
-    Description: "Brand: Suzuki,Model:Gixxer,Year:2019, KM driven: 2,000 km",
+    description: "Brand: Suzuki,Model:Gixxer,Year:2019, KM driven: 2,000 km",
   },
   {
     name: "Honda Dio",
@@ -455,7 +455,7 @@ let motorcycle = [
     price: "64,000",
     address: "Nellikkunnu, Kasaragod, Kerala",
     State: "Kerla",
-    Description:
+    description:
       "MAHINDRA BEST CHOICE Band road kasaragod *loan facility yes *We give one year Engine warranty *4 free service *63 points checked by First choice *Insurance : 2024",
   },
   {
@@ -469,7 +469,7 @@ let motorcycle = [
     price: "28,000",
     address: "Saat Rasta Road, Elephanta Caves, Maharashtra",
     State: "Maharashtra",
-    Description:
+    description:
       "Hero Maestro 2012 Done 23000 Kms in Awesome Condition in Original Paint Single Owner Meter not working ready to use all papers clear Genuine buyers contact no chitchat for more information call",
   },
 
@@ -487,7 +487,7 @@ let bufferData=[
         price: "12,50,001",
         address: "Avarampalayam, Coimbatore",    
         State: "Tamil Nadu",
-        Description: "ABS: Yes,Accidental: No,Adjustable External Mirror: Power,Adjustable Steering: Yes, Air Conditioning: Automatic Climate Control,Number of Airbags: 2 airbags,Alloy Wheels: Yes",
+        description: "ABS: Yes,Accidental: No,Adjustable External Mirror: Power,Adjustable Steering: Yes, Air Conditioning: Automatic Climate Control,Number of Airbags: 2 airbags,Alloy Wheels: Yes",
       },
       {
         name: "Honda Activa",
@@ -500,7 +500,7 @@ let bufferData=[
         price: "28,500",
         address: "DRR Nagar, Chennai, Tamil Nadu",    
         State: "Tamil Nadu",
-        Description: "Honda activa stormRider just 8k km done single owner bike looks like a new condition company service only price is silently negotiable too much bargaining please stay away interested people please chat with me",
+        description: "Honda activa stormRider just 8k km done single owner bike looks like a new condition company service only price is silently negotiable too much bargaining please stay away interested people please chat with me",
       },
       {
         name: "Lenovo laptop",
@@ -513,7 +513,7 @@ let bufferData=[
         price: "15,000",
         address: "Abbaiah Reddy Layout, Bengaluru, Karnataka",    
         State: "Karnataka",
-        Description: "This is a 4gb ram and 330 gb rom. This is a pentium i3 model This laptop is rarely used and is in excellent condition.This laptop was purchased 3 years ago for 33k.Only laptop and charging cable is available.This has official windows 10 version.",
+        description: "This is a 4gb ram and 330 gb rom. This is a pentium i3 model This laptop is rarely used and is in excellent condition.This laptop was purchased 3 years ago for 33k.Only laptop and charging cable is available.This has official windows 10 version.",
       },
       {
         name: "iPhone 11",
@@ -526,7 +526,7 @@ let bufferData=[
         price: "24,999",
         address: "Samudrapur, Maharashtra, India",    
         State: "Maharashtra",
-        Description: "64 GB ROM, 128 GB ROM.15.49 cm (6.1 inch) Liquid Retina HD Display For More Info Please Contact Us. On Biggest Discount.* In Unlimited stock.*1 Year warranty*",
+        description: "64 GB ROM, 128 GB ROM.15.49 cm (6.1 inch) Liquid Retina HD Display For More Info Please Contact Us. On Biggest Discount.* In Unlimited stock.*1 Year warranty*",
       },
       {
         name: "Living room decorative wall shelf",
@@ -539,7 +539,7 @@ let bufferData=[
         price: "800",
         address: "Samudrapur, Maharashtra, India",    
         State: "Maharashtra",
-        Description: "Material: Wooden,Pack: Pack of 1,Product Length: 30 cm, Product Breadth: 30 cm,Product Height: 10 cm,No. of Shelves: 4,Country of Origin: India",
+        description: "Material: Wooden,Pack: Pack of 1,Product Length: 30 cm, Product Breadth: 30 cm,Product Height: 10 cm,No. of Shelves: 4,Country of Origin: India",
       },
 
 ]
@@ -554,7 +554,8 @@ let append = (data) => {
     let box = document.createElement("div");
     box.style.cursor = 'pointer'
     box.addEventListener('click',function(){
-       location.href = "description.html"
+              getData(el)
+        location.href = "description.html"
        
     })
 
@@ -582,6 +583,10 @@ let append1 = (motorcycle) => {
       let box = document.createElement("div");
       box.style.cursor = 'pointer'
       box.setAttribute('class','swiper-slide')
+      box.addEventListener('click',function(){
+        getData(el)
+         location.href = "description.html"
+      })
   
       let pic = document.createElement("img");
       pic.src = el.image1;
@@ -622,22 +627,12 @@ let append1 = (motorcycle) => {
       btn2.style.display = 'none';
     }
   }
-
+let btn3 = document.getElementById('btnback');
+btn3.addEventListener('click',backTop);
  function backTop(){
     document.documentElement.scrollTop = 0;
  }
 
-
-let buttons =  document.querySelectorAll('#more>button')
-
-buttons[0].addEventListener('click',function(){
-
-})
-
-buttons[1].addEventListener('click',function(){
-  
-})
-
-
-
- 
+ function getData(element){
+    localStorage.setItem('item',JSON.stringify(element));
+ }

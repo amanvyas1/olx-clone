@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#main{
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    margin: 60px auto;
+}
+#details{
+    width: 100%;
+    position: relative;
+    background-color: black;
+    border: 1px solid rgba(14,4,5,.2);
+    border-radius: 4px;
+}
+#details>img{
+    z-index: 10;
+    width: 60%;
+    height: 500px;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+}
+#disc{
+    width: 100%;
+    border: 1px solid rgba(14,4,5,.2);
+    border-radius: 4px;
+    padding: 10px;
+}
+#disc>p{
+    font-weight: 700;
+    font-size: 20px;
+    color: #002f34;
+    margin-left: 0px;
+}
+#details>button{
+    position: absolute;
+    top: 50%;
+    padding: 10px;  
+    background-color: rgba(77,77,77,77);
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    transition: all 0.3s ease;
+    opacity: 0.3;
+}
+#details>button:hover{
+    opacity: 1;
+}
+#details>button:first-child{
+    right: 10px;
+}
+#details>button:nth-child(2){
+    left: 10px;
+}
+#contact{
+    width: 50%; 
+    padding: 20px;
+}
+#contact>div{
+    width: 100%;
+    margin: 20px 0px;
+    border: 1px solid rgba(14,4,5,.2);
+    border-radius: 4px;
+}
+#contact>div:first-child>h1{
+    direction: ltr;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #002f34;
+    font-size: 34px;
+    line-height: 32px;
+}
+#contact>div:first-child>h1+p{
+        margin-left: 0px;
+        color: #406367;
+        font-size: 16px;
+        font-weight: 400;
+}
+#contact>div:first-child>p+p{
+    font-size: 12px;
+    color: #406367;
+    margin-left: 0px;
+}
+
+#price>i{
+    width: fit-content;
+    margin-left: 300px;
+    font-size: 20px;
+    padding: 5px;
+    transition: all 0.3s ease;
+}
+#price>i:hover{
+    background-color: #91d1d8;
+    border-radius: 50%;
+}
+#seller>p{
+    margin-left: 0px;
+}
+#seller>p>i{
+    margin: 8px;
+}
+#seller>p:nth-child(1){
+    font-size: 20px;
+}
+#seller>p:nth-child(2){
+    font-size: 18px;
+}
+#seller>p:nth-child(3){
+    font-size: 18px;
+}
+
