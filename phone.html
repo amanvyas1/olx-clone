@@ -1,13 +1,11 @@
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE:edge">
-    <meta name="viewport" content="width:device-width, initial-scale:1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>smartphones</title>
     <link rel="stylesheet" href="./styles/phone.css">
 </head>
-
 <body>
     <!-- navbar section  -->
     <div id="navbar">
@@ -16,10 +14,11 @@
             <!-- adverties part  -->
             <div id="adds">
                 <div>
-                    <img src="https://rukminim1.flixcart.com/image/832/832/ko0d6kw0/mobile/1/m/9/iphone-12-mjnm3hn-a-apple-original-imag2k2vnvvgatkv.jpeg?q=70" 
+                    <img src="https://rukminim1.flixcart.com/image/832/832/ko0d6kw0/mobile/6/h/y/iphone-12-mjnm3hn-a-apple-original-imag2k2v6ehvnzfd.jpeg?q=70"
                     alt="iphone-image">
                 </div>
-                <div>
+                <div id="cross">
+                    <p>X</p>
                     <h3>APPLE iPhone 12 (Purple, 128 GB)</h3>
                     <p>12MP + 12MP | 12MP Front Camera</p>
                     <p>12MP TrueDepth Front Camera with Night Mode,
@@ -33,15 +32,17 @@
             <div id="product_part">
                 <div id="sidebar">
                     <h2>CATEGORIES</h2>
-                    <select name="category" id="">
+                    <p>Select Categories</p>
+                    <select name="category" id="category">
                         <option value="select">select category--</option>
-                        <option value="Mobile Phones">Mobiles</option>
-                        <option value="accessories">Accessories</option>
-                        <option value="tablets">Tablets</option>
+                        <option value="mob">Mobiles</option>
+                        <option value="acc">Accessories</option>
+                        <option value="tab">Tablets</option>
                     </select>
                     <hr>
                     <h2>LOCATIONS</h2>
-                    <select name="location" id="">
+                    <p>Select Location</p>
+                    <select name="location" id="loc">
                         <option value="select">select location--</option>
                         <option value="ad">Andaman & Nicobar Islands</option>
                         <option value="mh">Maharastra</option>
@@ -52,7 +53,8 @@
                     </select>
                     <hr>
                     <h2>BRAND</h2>
-                    <select name="brand" id="">
+                    <p>Select Brand</p>
+                    <select name="brand" id="brand">
                         <option value="select">select brand--</option>
                         <option value="vivo">Vivo</option>
                         <option value="iphone">iPhone</option>
@@ -60,12 +62,22 @@
                         <option value="redmi">Redmi</option>
                         <option value="narzo">Narzo</option>
                     </select>
+                    <hr>
+                    <h2>BUDGET</h2>
+                    <p>Choose Budget</p>
+                    <select name="budget" id="">
+                        <option value="select">select budget--</option>
+                        <option value="ab1">Above 5,000</option>
+                        <option value="ab2">Above 10,000</option>
+                        <option value="ab3">Above 15,000</option>
+                        <option value="ab4">Above 20,000</option>
+                    </select>
+                    <hr>
                 </div>
                 <!-- product section or smartphone section  -->
-                <div id="smartphones">
-                    
-                </div>
+                <div id="smartphones"></div>
             </div>
+            <div id="button"><button>Load More</button></div>
         </div>
     </div>
 </body>
@@ -115,24 +127,24 @@ address : "AF SCHOOL STAFF",
 state : "Banglore",
 category : "phone"
 },
-{img : "https://apollo-singapore.akamaized.net/v1/files/mx8ycr7g6tzl3-IN/image;s:300x600;q:60",
+{img : "https://apollo-singapore.akamaized.net/v1/files/deb8i2o2p02u2-IN/image;s=300x600;q=60",
 price : "7,500",
 name : "Redmi",
 address : "GARACHARMA",
 state : "Gujrat",
 category : "phone"
 },
-{img : "https://apollo-singapore.akamaized.net/v1/files/ghej4ae11rh8-IN/image;s:300x600;q:60",
+{img : "https://apollo-singapore.akamaized.net/v1/files/dctocm2lbl322-IN/image;s=400x800;q=60",
 price : "3,200",
 name : "Redmi",
 address : "BAKULTALA",
 state : "Andaman & Nicobar Islands",
 category : "phone"
 },
-{img : "https://apollo-singapore.akamaized.net/v1/files/421w4403ivyo-IN/image;s:300x600;q:60",
-price : "6,000",
-name : "Vivo",
-address : "PHASE 1, BATALA",
+{img : "https://apollo-singapore.akamaized.net/v1/files/8fwz1e1in1ki3-IN/image;s:300x600;q:60",
+price : "89,999",
+name : "iPhone",
+address : "INA, Delhi",
 state : "Delhi",
 category : "phone"
 },
@@ -185,10 +197,10 @@ address : "G T B Nagar",
 state : "Maharastra",
 category : "phone"
 },
-{img : "https://apollo-singapore.akamaized.net/v1/files/8fwz1e1in1ki3-IN/image;s:300x600;q:60",
-price : "89,999",
-name : "iPhone",
-address : "INA, Delhi",
+{img : "https://apollo-singapore.akamaized.net/v1/files/6dc01imesrqo2-IN/image;s=400x800;q=60",
+price : "6,000",
+name : "Vivo",
+address : "PHASE 1, BATALA",
 state : "Delhi",
 category : "phone"
 },
@@ -206,11 +218,11 @@ address : "JUNGLIGHAR",
 state : "Andaman & Nicobar Islands",
 category : "phone"
 },
-{img : "https://apollo-singapore.akamaized.net/v1/files/0nw098q6paeg2-IN/image;s:300x600;q:60",
-price : "33,000",
-name : "Apple Watch",
-address : "KADAPA",
-state : "Gujrat",
+{img : "https://apollo-singapore.akamaized.net/v1/files/xxy48ybnh6a52-IN/image;s:300x600;q:60",
+price : "6,500",
+name : "Skull candy hesh Anc",
+address : "GOVERNORPETA",
+state : "Banglore",
 category : "accessories"
 },
 {img : "https://apollo-singapore.akamaized.net/v1/files/ox1078uxt8yy2-IN/image;s:300x600;q:60",
@@ -234,17 +246,17 @@ address : "MUSTAFABAD, DELHI",
 state : "Delhi",
 category : "accessories"
 },
-{img : "https://apollo-singapore.akamaized.net/v1/files/xxy48ybnh6a52-IN/image;s:300x600;q:60",
-price : "6,500",
-name : "Skull candy hesh Anc",
-address : "GOVERNORPETA",
-state : "Banglore",
+{img : "https://apollo-singapore.akamaized.net/v1/files/0nw098q6paeg2-IN/image;s:300x600;q:60",
+price : "33,000",
+name : "Apple Watch",
+address : "KADAPA",
+state : "Gujrat",
 category : "accessories"
 },
-{img : "https://apollo-singapore.akamaized.net/v1/files/5aqtukud7qv43-IN/image;s:300x600;q:60",
-price : "20,000",
-name : "iPad Mini 5",
-address : "JAYANAGAR",
+{img : "https://apollo-singapore.akamaized.net/v1/files/lmfctjvbscjv-IN/image;s:300x600;q:60",
+price : "28,000",
+name : "Apple 8th Generation",
+address : "VASHI, NAVI MUMBAI",
 state : "Maharastra",
 category : "tablets"
 },
@@ -262,10 +274,10 @@ address : "KENGUNTE",
 state : "Banglore",
 category : "tablets"
 },
-{img : "https://apollo-singapore.akamaized.net/v1/files/lmfctjvbscjv-IN/image;s:300x600;q:60",
-price : "28,000",
-name : "Apple 8th Generation",
-address : "VASHI, NAVI MUMBAI",
+{img : "https://apollo-singapore.akamaized.net/v1/files/5aqtukud7qv43-IN/image;s:300x600;q:60",
+price : "20,000",
+name : "iPad Mini 5",
+address : "JAYANAGAR",
 state : "Maharastra",
 category : "tablets"
 },
@@ -285,7 +297,7 @@ category : "tablets"
 }
 ]
     
-    function displayProduct (products) {
+    function displayPhone (products) {
         document.querySelector("#smartphones").innerHTML="";
         
         products.forEach( function (el) {
@@ -307,5 +319,117 @@ category : "tablets"
             document.querySelector("#smartphones").append(box);
         })
     }
-    displayProduct(products);
+    displayPhone(products);
+
+    // filter section
+    let filter1 = document.querySelector("#category");
+    filter1.addEventListener("change", function () {
+        
+        if(filter1.value === "select"){
+            displayPhone(products);
+            console.log('select');
+        }
+        else if(filter1.value === "mob"){
+            let filtered1 = products.filter(function (el) {
+                return el.category === "phone";
+            })
+            displayPhone(filtered1);
+        }
+        else if(filter1.value === "acc"){
+            let filtered2 = products.filter(function(el) {
+                return el.category === "accessories"
+            })
+            displayPhone(filtered2);
+        }
+        else if(filter1.value === "tab"){
+            let filtered3 = products.filter(function(el){
+                return el.category === "tablets";
+            })
+            displayPhone(filtered3);
+        }
+    })
+    
+    let filter2 = document.querySelector("#loc");
+    filter2.addEventListener("change", function() {
+
+        if(filter2.value === "select"){
+            displayPhone(products);
+        }
+        else if(filter2.value === "ad"){
+            let loc1 = products.filter(function (el) {
+                return el.state === "Andaman & Nicobar Islands";
+            })
+            displayPhone(loc1);
+        }
+        else if(filter2.value === "mh") {
+            let loc2 = products.filter(function (el) {
+                return el.state === "Maharastra";
+            })
+            displayPhone(loc2);
+        }
+        else if(filter2.value === "kn"){
+            let loc3 = products.filter(function (el) {
+                return el.state === "Karnataka";
+            })
+            displayPhone(loc3);
+        }
+        else if(filter2.value === "bg"){
+            let loc4 = products.filter(function(el) {
+                return el.state === "Banglore";
+            })
+            displayPhone(loc4);
+        }
+        else if(filter2.value === "gj"){
+            let loc5 = products.filter(function(el) {
+                return el.state === "Gujrat";
+            })
+            displayPhone(loc5);
+        }
+        else if(filter2.value === "dl"){
+            let loc6 = products.filter(function(el){
+                return el.state === "Delhi";
+            })
+            displayPhone(loc6);
+        }
+    })
+ 
+    let filter3 = document.querySelector("#brand");
+    filter3.addEventListener("change", function() {
+        
+        if(filter3.value === "select"){
+            displayPhone(products);
+        }
+        else if(filter3.value === "vivo"){
+            let brand1 = products.filter(function(el){
+                return el.name === "Vivo";
+            })
+            displayPhone(brand1);
+            // console.log("brand1");
+        }
+        else if(filter3.value === "iphone"){
+            let brand2 = products.filter(function (el) {
+                return el.name === "iPhone";
+            })
+            displayPhone(brand2);
+        }
+        else if(filter3.value === "asus"){
+            let brand3 = products.filter(function (el){
+                return el.name === "ASUS";
+            })
+            displayPhone(brand3);
+        }
+        else if(filter3.value === "redmi"){
+            let brand4 = products.filter(function(el){
+                return el.name === "Redmi";
+            })
+            displayPhone(brand4);
+        }
+        else if(filter3.value === "narzo"){
+            let brand5 = products.filter(function (el){
+                return el.name === "Narzo";
+            })
+            displayPhone(brand5);
+        }
+    })
+
 </script>

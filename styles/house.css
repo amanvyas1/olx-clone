@@ -2,19 +2,26 @@
     width: 80%;
     /* border: 1px solid red; */
     margin: auto;
+    margin-top: 100px;
 }
 #adds {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
     margin: auto;
     /* border: 1px solid red; */
     border: 1px solid rgb(218, 202, 202);
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+}
+#adds > div > p:first-child {
+    margin: 0px 0px 0px 220px;
+    cursor: pointer;
+    width: 10px;
+    height: 15px;
+    border: 1px solid rgb(104, 104, 193);
 }
 #adds > div > img {
-    width: 60%;
+    width: 80%;
 }
 #product_part {
     /* border: 1px solid teal; */
@@ -23,19 +30,50 @@
 #sidebar {
     /* border: 1px solid blue; */
     width: 30%;
+    line-height: 20px;
+}
+hr {
+    margin-top: 150px;
 }
 #apartments {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(10, auto);
     gap: 20px;
 }
-/* #apartments > div > img {
-    width: 70%;
+#apartments > div > img {
+    width: 80%;
     display: block;
     margin: auto;
 }
 #apartments > div {
     border: 1px solid rgb(218, 202, 202);
-} */
+    line-height: 10px;
+}
+#apartments > div > h2 + p {
+    font-size : 20px;
+}
+#apartments > div > h2 + p + p {
+    font-size : 20px; 
+    color: grey;
+}
+#apartments > div > h2 + p + p + p {
+    font-size : 13px;
+    color: grey;
+}
+#button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button > button {
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 40px;
+    background-color: white;
+}
+#button > button:hover {
+    border: 3px solid black;
+}

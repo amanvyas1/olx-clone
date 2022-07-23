@@ -2,19 +2,27 @@
     width: 80%;
     /* border: 1px solid red; */
     margin: auto;
+    margin-top: 100px;
 }
 #adds {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
     margin: auto;
     /* border: 1px solid red; */
     border: 1px solid rgb(218, 202, 202);
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+}
+#cross > p:first-child {
+    cursor: pointer;
+    margin-left: 350px;
+    margin-top: -170px;
+    width: 10px;
+    height: 20px;
+    border: 1px solid rgb(104, 104, 193);
 }
 #adds > div > img {
-    width: 60%;
+    width: 50%;
 }
 #product_part {
     /* border: 1px solid teal; */
@@ -23,6 +31,17 @@
 #sidebar {
     /* border: 1px solid blue; */
     width: 30%;
+    line-height: 30px;
+    /* scroll-behavior: auto; */
+}
+#sidebar > h2 + p {
+    font-size: 20px;
+}
+#sidebar > select:nth-child(1) {
+    scroll-behavior: smooth;
+}
+hr {
+    margin-top: 150px;
 }
 #smartphones {
     /* border: 1px solid red; */
@@ -42,4 +61,29 @@
 }
 #smartphones > div {
     border: 1px solid rgb(218, 202, 202);
+    line-height: 30px;
+}
+#smartphones > div > h2 + p {
+    font-size: 20px;
+    color: grey;
+}
+#smartphones > div > h2 + p + p {
+    font-size : 13px;
+    color: grey;
+}
+#button {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button > button {
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 40px;
+    background-color: white;
+}
+#button > button:hover {
+    border: 3px solid black;
 }
