@@ -463,6 +463,7 @@ append(carData)
 
 let addtoLS = (el) =>{
     localStorage.setItem("item", JSON.stringify(el))
+    window.location.href = "description.html"
 }
 
 document.querySelector("#sort").addEventListener("change", ()=>{
@@ -664,3 +665,4 @@ btn2.addEventListener("click", backTop);
              behavior: "smooth",
        });
  }
+ 
