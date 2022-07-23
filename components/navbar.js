@@ -2,7 +2,7 @@ let navbar = () =>{
     return `
     <div id="header-container">
     <div id="header">
-        <div><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Logotyp_OLX_.png" alt=""></div>
+        <div><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Logotyp_OLX_.png" id="home" alt="error"></div>
         <div><select>
             <option >Maharashtra</option>
             <option >Maharashtra</option>
@@ -19,7 +19,7 @@ let navbar = () =>{
         <div><i class="fa-regular fa-bell"></i></div>
         <div id="login1">Login</i></div>
        <div><button style="display: none;"id="logout" >Logout</button></div>
-        <div><button>SELL</button></div>
+        <div><button id="sell">SELL</button></div>
     </div>
 </div>
 <div id="divider">
