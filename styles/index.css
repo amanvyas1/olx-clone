@@ -9,66 +9,56 @@ p{
     width: fit-content;
     font-size: 24px;
 }
-#more{
-    width: 80%; 
-    margin: 20px auto;
-    background-color:#ebeeef;
-    display: flex;
-    justify-content: space-around; 
-    padding: 25px;
-    position: relative;
+.swiper{
+    width: 80%;
+    background-color: #ebeeef;
+    
 }
-#more>button{
-    position: absolute;
-    top: 120px;
-}
-#more>button:nth-child(1){
-    left: 35px;
-    padding: 20px 10px;
-    font-size: 25px;
-    background-color: white;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border: none;
-    cursor: pointer;
-}
-#more>button:nth-child(2){
-    right: 35px;
-    padding: 20px 10px;
-    font-size: 25px;
-    background-color: white;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border: none;
-    cursor: pointer;
-}
-#more>div{
-    width: 23%;
-    height: 250px;
+.swiper-slide{
     padding: 10px;
     background-color: #ffffff;
+    border: 1px solid rgba(14,4,5,.2);
+    border-radius: 4px;
 }
-#more>div>img{
+.swiper-slide>img{
     display: block;
     margin: auto;
-    width: 90%;
+    width: 50%;
     height: 120px;
+    object-fit: cover;
 }
-#more>div>h3{
+.swiper-slide>h3{
     font-size: 22px;
     color: #002f34;
     margin-top: 20px;
     margin-left: 28px;
 }
-#more>div>h3+p{
+.swiper-slide>h3+p{
     margin-left:28px;
     font-size: 14px;
     color: #002F34;
 }
-#more>div>p+p{
+.swiper-slide>p+p{
     margin-left:28px;
     font-size: 12px;
     color: rgba(0,47,52,.64);
     margin-top: 10px;
 }
+.swiper-button-next{
+    padding: 40px 15px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+    cursor: pointer;
+}
+.swiper-button-prev{
+    padding: 40px 15px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+    cursor: pointer; 
+}
+
 #products{
     width: 80%; 
     margin: 20px auto;
@@ -105,6 +95,7 @@ p{
     margin: 20px auto;
     width: 70%;
     height: 200px;
+    object-fit: cover;
 }
 #footer{
     width: 100%;
@@ -125,12 +116,18 @@ p{
     padding: 40px;
     font-size: 16px;
     font-weight: 500;
+    transition: all 0.3s ease;
 }
 #footer>div>section>ul>li{
     justify-content: left;
     margin: 8px;
     color: #80acb1;
     font-size: 12px;
+    opacity: 0.6;
+}
+#footer>div>section>ul>li:hover{
+    opacity: 1;
+    cursor: pointer;
 }
 #footer>section{
     display: flex;
@@ -142,10 +139,17 @@ p{
 }
 #footer>section>ul>i{
     margin: 4px;
+    opacity: 0.6;
+    transition: all 0.3s ease ;
+    cursor: pointer;
+}
+#footer>section>ul>i:hover{
+    opacity: 1;
 }
 #footer>section>ul>img{
     margin-top: 40px;
     width: 100px;
+    cursor: pointer;
 }
 li{
     list-style: none;

@@ -6,18 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Olx</title>
     <link rel="stylesheet" href="../obeisant-stem-2172/styles/index.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    />
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
   </head>
   <body>
     <nav></nav>
     <p>More on Motorcycle</p>
-    <div id="more">
-      <!-- more items-->
-      <button><</button>
-      <button>></button>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
     </div>
     <p>Fresh recommendations</p>
     <div id="products">
@@ -132,5 +132,25 @@
         <p>Free Classifieds in India. © 2006-2022 OLX</p>
     </div>
   </body>
-  <script src="../obeisant-stem-2172/scripts/index.js"></script>
+  <script src="../obeisant-stem-2172/scripts/index.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      slidesPerGroup: 4,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
 </html>
