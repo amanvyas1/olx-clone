@@ -4,11 +4,12 @@ let navbar = () =>{
     <div id="header">
         <div><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Logotyp_OLX_.png" id="home" alt="error"></div>
         <div><select>
+            <option>Select State</option>
             <option >Maharashtra</option>
-            <option >Maharashtra</option>
-            <option >Maharashtra</option>
-            <option >Maharashtra</option>
-            <option >Maharashtra</option>
+            <option >Karnataka</option>
+            <option >Rajasthan</option>
+            <option >Delhi</option>
+            <option >Madhya Pradesh</option>
         </select></div>
         <div>
             <input type="text" placeholder="Find Cars, Mobile Phones and More...">
@@ -27,12 +28,12 @@ let navbar = () =>{
 </div>
 <div id="menu">
     <h4 id="mega-menu">ALL CATEGORIES</h4>
-    <a href="">Cars</a>
-    <a href="">Motorcycles</a>
-    <a href="">Mobile Phones</a>
-    <a href="">For Sale: Houses & Apartments</a>
-    <a href="">Scooters</a>
-    <a href="">Commercial & Other Vehicles</a>
+    <a href="cars.html">Cars</a>
+    <a href="motorcycles.html">Motorcycles</a>
+    <a href="phone.html">Mobile Phones</a>
+    <a href="house.html">For Sale: Houses & Apartments</a>
+    <a href="scooter.html">Scooters</a>
+    <a href="commercial.html">Commercial & Other Vehicles</a>
 </div>
 <div id="megamenu-box">
     <div id="mega-content">
@@ -161,7 +162,7 @@ let navbar = () =>{
         <div>India</div>
     </div>
     <div id="search">
-        <input type="text"  placeholder="Find Cars, Mobile Phones and More...">
+        <input type="text" id="query"  placeholder="Find Cars, Mobile Phones and More...">
         <i class="fa fa-search"></i>
 </div>
     

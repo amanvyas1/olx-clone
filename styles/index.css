@@ -150,14 +150,12 @@ p{
     width: 100px;
     cursor: pointer;
 }
-li{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-li>button{
+
+#btn-load{
     padding: 0px 10px;
     font-size: 16px;
+    display: block;
+    margin: auto;
     color: #002F34;
     background-color: transparent;
     border-radius: 4px;
@@ -242,4 +240,16 @@ li>button:hover{
 }
 #tagline>p:first-child{
     margin-left: -40px;
+}
+
+@media all and (min-width: 480px) and (max-width: 720px){
+    #products{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media all and (max-width: 479px) {
+    #products{
+        grid-template-columns: repeat(1,1fr);
+    }
 }

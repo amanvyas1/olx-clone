@@ -15,14 +15,13 @@
     column-gap: 13px;
     align-items: center;
 }
-/* logo div */
+
 #header>div>img{
     padding: 20px;
     width: 40%;
     margin-left: 40px;
 }
 
-/* select tag   */
 #header>div:nth-child(2)>select{
     border: 2px solid black;
     padding: 5px;
@@ -37,7 +36,7 @@
     border-radius:4px
 }
 #header>div:nth-child(3)>button{
-    height: 50px;
+    height: 62px;
     width: 4%;
     padding: 5px;
     position: absolute;
@@ -228,8 +227,9 @@ ul{
     height: 100vh;
     background: black;
     position: absolute;
-    opacity: 0.7;
+    opacity: 0.9;
     top: 0;
+    z-index: 100;
 }
 #login-signup input {
     display: block;

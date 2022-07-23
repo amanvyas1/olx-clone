@@ -15,7 +15,7 @@
     margin-bottom: 30px;
 }
 #adds > div + div {
-    line-height: 20px;
+    line-height: 40px;
 }
 #adds > div + div > p {
     font-size: 20px;
@@ -27,6 +27,8 @@
 }
 #adds > div + div > h2 {
     color: rgb(177, 141, 76);
+    line-height: 30px;
+    width: 200px;
 }
 #adds > div > img {
     width: 85%;
@@ -56,7 +58,7 @@
 #sidebar {
     /* border: 1px solid blue; */
     width: 30%;
-    line-height: 20px;
+    line-height: 35px;
 }
 #sidebar > hr {
     margin-top: 150px;
@@ -100,7 +102,8 @@
 }
 #apartments > div {
     border: 1px solid rgb(218, 202, 202);
-    line-height: 10px;
+    line-height: 35px;
+
 }
 #apartments > div > h2 + p {
     font-size : 20px;
@@ -127,6 +130,7 @@
     font-size: 20px;
     padding: 20px 40px;
     background-color: white;
+    border-radius: 4px;
 }
 #button > button:hover {
     border: 3px solid black;
@@ -146,9 +150,10 @@
 #first > div {
     /* border: 1px solid red; */
     height: 220px;
+    margin: 20px;
 }
 #first > div > h3 + p {
-    margin-top: -20px;
+    margin-top: 20px;
 }
 #first > div > h3 ~ p {
     color: grey;
@@ -169,7 +174,7 @@
 #second {
     padding: 5px 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #002f34;
     color: white;

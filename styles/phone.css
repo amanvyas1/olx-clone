@@ -1,6 +1,5 @@
 #main {
     width: 80%;
-    /* border: 1px solid red; */
     margin: auto;
     margin-top: 100px;
 }
@@ -10,9 +9,10 @@
     align-items: center;
     margin: auto;
     width: 80%;
-    /* border: 1px solid red; */
     border: 1px solid rgb(218, 202, 202);
     margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 4px  ;
 }
 #adds > div + div > h2{
     color: rgb(63, 63, 148);
@@ -123,7 +123,7 @@
     font-size : 13px;
     color: grey;
 }
-#button {
+#button{
     margin-top: 50px;
     display: flex;
     justify-content: center;
@@ -135,6 +135,7 @@
     font-size: 20px;
     padding: 20px 40px;
     background-color: white;
+    border-radius: 4px;
 }
 #button > button:hover {
     border: 3px solid black;
@@ -154,9 +155,10 @@
 #first > div {
     /* border: 1px solid red; */
     height: 220px;
+    margin: 40px;
 }
 #first > div > h3 + p {
-    margin-top: -20px;
+    margin-top: 20px;
 }
 #first > div > h3 ~ p {
     color: grey;
@@ -168,7 +170,7 @@
 #app {
     margin-top: 50px;
 }
-#app > img {
+#app>img {
     width: 40%;
 }
 #second {

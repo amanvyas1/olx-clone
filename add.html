@@ -51,7 +51,7 @@
     let addata = () =>{
 
         function obj(i,n,a,s,p){
-            this.img1=i;
+            this.image1=i;
             this.name=n;
             this.address=a;
             this.State =s;
@@ -65,9 +65,13 @@
 
         let post_data = new obj(img1,name,address,State,price);
 
+
+
        data_array.push(post_data);
+       
        swal("Ad Posted Successfully", "", "success").then(function(){
-        location.href="index.html";
+        localStorage.setItem('products',JSON.stringify(data_array));
+          location.href="index.html";
        });
 
 

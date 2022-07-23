@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="../obeisant-stem-2172/styles/index.css" />
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
     <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="../obeisant-stem-2172/styles/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   </head>
   <body>
     <nav></nav>
@@ -23,7 +25,7 @@
     <div id="products">
       <!-- All products -->
     </div>
-    <li><button id="btn-load">Load More</button></li>
+    <button id="btn-load">Load More</button>
     <button id="btnback"><i class="fas fa-angle-up"></i>Back to top</button>
     <div id="ad">
       <img
@@ -151,4 +153,11 @@
       },
     });
   </script>
+  <script type="module">
+    import navbar from "./components/navbar.js";
+    document.querySelector("nav").innerHTML=navbar();
+
+   
+</script>
+<script src="../obeisant-stem-2172/scripts/script.js" type="module"></script>
 </html>

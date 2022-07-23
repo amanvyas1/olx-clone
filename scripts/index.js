@@ -359,9 +359,9 @@ let products = [
     description: "Brand: Suzuki,Model:Gixxer,Year:2019, KM driven: 2,000 km",
   },
 ];
-localStorage.setItem('products',JSON.stringify(products));
+  localStorage.setItem('productsLS',JSON.stringify(products));
 
-let data = JSON.parse(localStorage.getItem('products'));
+let data = JSON.parse(localStorage.getItem('products')) || [];
 
 let motorcycle = [
   {
@@ -576,7 +576,10 @@ let append = (data) => {
   });
 };
 
-append(data);
+append(products);
+
+append(data); 
+
 
 let append1 = (motorcycle) => {
     motorcycle.forEach((el) => {
@@ -630,7 +633,10 @@ let append1 = (motorcycle) => {
 let btn3 = document.getElementById('btnback');
 btn3.addEventListener('click',backTop);
  function backTop(){
-    document.documentElement.scrollTop = 0;
+    document.body.scrollIntoView({
+      behavior: "smooth",
+});
+    
  }
 
  function getData(element){

@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>house and apartment page</title>
     <link rel="stylesheet" href="./styles/house.css" />
+    <link rel="stylesheet" href="../obeisant-stem-2172/styles/style.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
     <!-- navbar section  -->
-    <div id="navbar">
+    <nav></nav>
         <!-- house page start -->
         <div id="main">
             <!-- adverties part  -->
@@ -20,7 +23,6 @@
                         alt="apartment-image">
                 </div>
                 <div>
-                    <div id="cross">X</div>
                     <h2>Ganga Shrusti Apartments</h2>
                     <p>Starting from</p>
                     <h3>₹ 51,00,000</h3>
@@ -173,7 +175,6 @@
             <div>Other Countries Pakistan - South Africa - Indonesia</div>
             <div>Free Classifieds in India. © 2006-2022 OLX</div>
         </div>
-    </div>
 </body>
 
 </html>
@@ -531,3 +532,11 @@
         }
     })
 </script>
+
+<script type="module">
+    import navbar from "./components/navbar.js";
+    document.querySelector("nav").innerHTML=navbar();
+
+   
+</script>
+<script src="scripts/script.js" type="module"></script>
