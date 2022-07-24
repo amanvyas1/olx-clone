@@ -6,118 +6,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>house and apartment page</title>
     <link rel="stylesheet" href="./styles/house.css" />
-    <link rel="stylesheet" href="../obeisant-stem-2172/styles/style.css">
-    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
+        integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
     <!-- navbar section  -->
     <nav></nav>
-        <!-- house page start -->
-        <div id="main">
-            <!-- adverties part  -->
-            <div id="adds">
-                <div>
-                    <img src="https://apollo-singapore.akamaized.net/v1/files/m93tt20qmbgu-IN/image;s=780x0;q=60"
-                        alt="apartment-image">
-                </div>
-                <div>
-                    <h2>Ganga Shrusti Apartments</h2>
-                    <p>Starting from</p>
-                    <h3>₹ 51,00,000</h3>
-                    <p>2 BHK 2000 ft2</p>
-                    <p>Don't wait</p>
-                </div>
-            </div>
-            <!-- sidebar or filter section  -->
+    <!-- house page start -->
+    <div id="main">
+        <!-- adverties part  -->
+        <div id="adds">
             <div>
-                <p>Home/House & Apartments</p>
-                <h1>House and Apartments for Sale</h1>
+                <img src="https://apollo-singapore.akamaized.net/v1/files/m93tt20qmbgu-IN/image;s=780x0;q=60"
+                    alt="apartment-image">
             </div>
-            <div id="sortBy">
+            <div>
+                <h2>Ganga Shrusti Apartments</h2>
+                <p>Starting from</p>
+                <h3>₹ 51,00,000</h3>
+                <p>2 BHK 2000 ft2</p>
+                <p>Don't wait</p>
+            </div>
+        </div>
+        <!-- sidebar or filter section  -->
+        <div>
+            <p>Home/House & Apartments</p>
+            <h1>House and Apartments for Sale</h1>
+        </div>
+        <div id="sortBy">
+            <div>
+                <h3>SORT BY :</h3>
+                <select name="sort" id="byPrice">
+                    <option value="sBy">sort by price--</option>
+                    <option value="lTh">low to high</option>
+                    <option value="hTl">high to low</option>
+                </select>
+            </div>
+        </div>
+        <hr>
+        <div id="product_part">
+            <div id="sidebar">
                 <div>
-                    <h3>SORT BY :</h3>
-                    <select name="sort" id="byPrice">
-                        <option value="sBy">sort by price--</option>
-                        <option value="lTh">low to high</option>
-                        <option value="hTl">high to low</option>
+                    <h2>CATEGORIES</h2>
+                    <h3>Properties</h3>
+                    <select name="category" id="properties">
+                        <option value="select">select properties--</option>
+                        <option value="sale">For Sale: House & Apartments</option>
+                        <option value="rent">For Rent: House & Apartments</option>
+                        <option value="land">Land & Plots</option>
+                        <option value="shops">For rent: Shops & Office</option>
+                        <option value="guest">PG & Guest House</option>
                     </select>
                 </div>
-            </div>
-            <hr>
-            <div id="product_part">
-                <div id="sidebar">
-                    <div>
-                        <h2>CATEGORIES</h2>
-                        <h3>Properties</h3>
-                        <select name="category" id="properties">
-                            <option value="select">select properties--</option>
-                            <option value="sale">For Sale: House & Apartments</option>
-                            <option value="rent">For Rent: House & Apartments</option>
-                            <option value="land">Land & Plots</option>
-                            <option value="shops">For rent: Shops & Office</option>
-                            <option value="guest">PG & Guest House</option>
-                        </select>
-                    </div>
-                    <hr>
-                    <div>
-                        <h2>LOCATIONS</h2>
-                        <h3>State</h3>
-                        <select name="location" id="state">
-                            <option value="select">select state--</option>
-                            <option value="rj">Rajsthan</option>
-                            <option value="mh">Maharastra</option>
-                            <option value="kn">Karnataka</option>
-                            <option value="ap">Andhra Pradesh</option>
-                            <option value="tn">Tamilnadu</option>
-                            <option value="dl">Delhi</option>
-                            <option value="bh">Bihar</option>
-                        </select>
-                    </div>
-                    <hr>
-                    <div>
-                        <h2>BRAND</h2>
-                        <h3>Budget</h3>
-                        <select name="brand" id="">
-                            <option value="select">select brand--</option>
-                            <option value="ab1">Above 50,00,000</option>
-                            <option value="bl1">Below 50,00,000</option>
-                            <option value="ab2">Above 70,00,000</option>
-                            <option value="bl2">Below 70,00,000</option>
-                            <option value="ab3">Above 10,00,000</option>
-                            <option value="bl3">Below 10,00,000</option>
-                        </select>
-                    </div>
-                    <hr>
-                    <div>
-                        <h2>TYPE</h2>
-                        <h2>Choose from below options</h2>
-                        <select name="type" id="">
-                            <option value="house">House & Villas</option>
-                            <option value="apartment">Apartments</option>
-                            <option value="floor">Builder Floors</option>
-                            <option value="farm">Farm Houses</option>
-                        </select>
-                    </div>
-                    <hr>
-                    <div>
-                        <h2>BEDROOMS</h2>
-                        <h3>Choose from below options</h3>
-                        <select name="bedrooms" id="">
-                            <option value="bedroom1">1+ bedromm</option>
-                            <option value="bedroom2">2+ bedroom</option>
-                            <option value="bedroom3">3+ bedroom</option>
-                            <option value="bedroom4">4+ bedroom</option>
-                        </select>
-                    </div>
-                    <hr>
+                <hr>
+                <div>
+                    <h2>LOCATIONS</h2>
+                    <h3>State</h3>
+                    <select name="location" id="state">
+                        <option value="select">select state--</option>
+                        <option value="rj">Rajsthan</option>
+                        <option value="mh">Maharastra</option>
+                        <option value="kn">Karnataka</option>
+                        <option value="ap">Andhra Pradesh</option>
+                        <option value="tn">Tamilnadu</option>
+                        <option value="dl">Delhi</option>
+                        <option value="bh">Bihar</option>
+                    </select>
                 </div>
-                <!-- house and apartments section  -->
-                <div id="apartments"></div>
+                <hr>
+                <div>
+                    <h2>BRAND</h2>
+                    <h3>Budget</h3>
+                    <select name="brand" id="">
+                        <option value="select">select brand--</option>
+                        <option value="ab1">Above 50,00,000</option>
+                        <option value="bl1">Below 50,00,000</option>
+                        <option value="ab2">Above 70,00,000</option>
+                        <option value="bl2">Below 70,00,000</option>
+                        <option value="ab3">Above 10,00,000</option>
+                        <option value="bl3">Below 10,00,000</option>
+                    </select>
+                </div>
+                <hr>
+                <div>
+                    <h2>TYPE</h2>
+                    <h2>Choose from below options</h2>
+                    <select name="type" id="">
+                        <option value="house">House & Villas</option>
+                        <option value="apartment">Apartments</option>
+                        <option value="floor">Builder Floors</option>
+                        <option value="farm">Farm Houses</option>
+                    </select>
+                </div>
+                <hr>
+                <div>
+                    <h2>BEDROOMS</h2>
+                    <h3>Choose from below options</h3>
+                    <select name="bedrooms" id="">
+                        <option value="bedroom1">1+ bedromm</option>
+                        <option value="bedroom2">2+ bedroom</option>
+                        <option value="bedroom3">3+ bedroom</option>
+                        <option value="bedroom4">4+ bedroom</option>
+                    </select>
+                </div>
+                <hr>
             </div>
-            <div id="button"><button>Load More</button></div>
+            <!-- house and apartments section  -->
+            <div id="apartments"></div>
         </div>
+        <div id="button"><button>Load More</button></div>
+    </div>
     </div>
     <!-- footer section -->
     <div id="footer">
@@ -535,8 +537,8 @@
 
 <script type="module">
     import navbar from "./components/navbar.js";
-    document.querySelector("nav").innerHTML=navbar();
+    document.querySelector("nav").innerHTML = navbar();
 
-   
+
 </script>
 <script src="scripts/script.js" type="module"></script>
