@@ -4,7 +4,7 @@ Aman Vyas,
 Abhishek Kagale, 
 Gitesh Sutar, 
 Nikhil Patil, 
-Swapnil Wakschaure
+Swapnil Wakchaure
 
 About us!
 
