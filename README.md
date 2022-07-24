@@ -12,7 +12,7 @@ About us!
 
 Olx is an company which provides a platfrom to user for selling pre-owned products.
 
-![image](https://user-images.githubusercontent.com/103635175/174490458-f1865d02-0d4b-4bce-8d48-de873ca14e9d.png)
+![image](https://iconape.com/wp-content/png_logo_vector/olx-logo.png)
 
 the link of our website you can visit click here https://fancy-pavlova-8a7b37.netlify.app/
 
