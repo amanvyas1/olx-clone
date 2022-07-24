@@ -181,3 +181,53 @@ window.location.href="index.html";
     
 })
 
+let data = JSON.parse(localStorage.getItem('productsLS'));
+
+
+let container1 = document.getElementById("products");
+// console.log(container1);
+let append = (data) => {
+    container1.innerHTML = null
+    data.forEach((el) => {
+      let box = document.createElement("div");
+      box.addEventListener('click',function(){
+         location.href = "description.html"
+      })
+  
+      let pic = document.createElement("img");
+      pic.src = el.image1;
+  
+      let price = document.createElement("h3");
+      price.innerText = "₹" + el.price;
+  
+      let name = document.createElement("p");
+      name.innerText = el.name;
+  
+      let address = document.createElement("p");
+      address.innerText = el.address;
+  
+      box.append(pic, price, name, address);
+      container1.append(box);
+    });
+  };
+
+  document.querySelector(".fa-search").addEventListener("click", function (e) {
+    let query = document.querySelector("#query").value;
+    console.log(query)
+    let filtered = data.filter((el)=>{
+        return el.name.includes(query)
+    })
+    append(filtered);
+    console.log(filtered);
+});
+
+document.querySelector("#choose-state").addEventListener("change", function (e) {
+    let selected = document.querySelector("#choose-state").value;
+    console.log(selected);
+    console.log(data)
+    let filtered = data.filter((el)=>{
+        return el.State === selected
+    })
+    append(filtered);
+    console.log(filtered);
+});

@@ -3,16 +3,16 @@ let navbar = () =>{
     <div id="header-container">
     <div id="header">
         <div><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Logotyp_OLX_.png" id="home" alt="error"></div>
-        <div><select>
-            <option>Select State</option>
-            <option >Maharashtra</option>
-            <option >Karnataka</option>
-            <option >Rajasthan</option>
-            <option >Delhi</option>
-            <option >Madhya Pradesh</option>
-        </select></div>
+        <div><select id="choose-state">
+        <option >Select State</option>
+        <option value="Maharashtra">Maharashtra</option>
+        <option value="Kerla">Kerala</option>
+        <option Value="Haryana">Haryana</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Punjab">Punjab</option>
+    </select></div>
         <div>
-            <input type="text" placeholder="Find Cars, Mobile Phones and More...">
+            <input type="text" id="query" placeholder="Find Cars, Mobile Phones and More...">
             <button><i class="fa fa-search"></i></button>
         </div>
             
