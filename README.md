@@ -6,6 +6,8 @@ Gitesh Sutar,
 Nikhil Patil, 
 Swapnil Wakchaure
 
+the link of our website you can visit click here https://gleaming-palmier-d6e98b.netlify.app/
+
 About us!
 
 ![image](https://user-images.githubusercontent.com/103635175/174490386-6ddf7433-5301-4d90-b86f-f9fed4a8478f.png)
@@ -14,7 +16,6 @@ Olx is an company which provides a platfrom to user for selling pre-owned produc
 
 ![image](https://iconape.com/wp-content/png_logo_vector/olx-logo.png)
 
-the link of our website you can visit click here https://fancy-pavlova-8a7b37.netlify.app/
 
 In this project we use HTML, CSS and Javascript.
 
