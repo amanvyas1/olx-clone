@@ -14,7 +14,6 @@ Swapnil Wakchaure
 
 # Live
 
-https://gleaming-palmier-d6e98b.netlify.app/
 https://classy-starburst-3b7522.netlify.app/
 
 About us!
