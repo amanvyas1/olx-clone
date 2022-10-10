@@ -1,7 +1,9 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
+
 #header-container{
     width: 100%;
     background: rgba(0,47,52,.03);
@@ -33,10 +35,12 @@
     width: 95%;
     height: 50px ;
     padding: 5px;
-    border-radius:4px
+    border-radius:4px;
+    box-sizing: border-box;
 }
+
 #header>div:nth-child(3)>button{
-    height: 62px;
+    height: 50px;
     width: 4%;
     padding: 5px;
     position: absolute;
@@ -46,7 +50,8 @@
     background: black;
     color: white;
     border-radius:4px;
-    
+    padding: 20px 5px;
+   
 }
 #header>div:nth-child(4)>select{
     border: none;
@@ -56,8 +61,12 @@
 #header>div:nth-child(4){
     text-align: center;
 }
+
 i.fa.fa-search {
     font-size: 20px;
+    margin: auto;
+    display: block;
+    margin-top: -5px;
 }
 i.fa-regular.fa-comment,i.fa-regular.fa-bell {
     font-size: 23px;

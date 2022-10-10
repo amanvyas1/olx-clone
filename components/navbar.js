@@ -13,7 +13,7 @@ let navbar = () =>{
     </select></div>
         <div>
             <input type="text" id="query" placeholder="Find Cars, Mobile Phones and More...">
-            <button><i class="fa fa-search"></i></button>
+            <button id="search-btn"><i class="fa fa-search"></i></button>
         </div>
             
         <div><i class="fa-regular fa-comment"></i></div>
